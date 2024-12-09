@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+
+html,
+body {
+	@apply h-full overflow-hidden;
+  /* background-color: #86efac; */
+  background-color: rgba(20, 52, 71, 1);
+  color: rgba(238, 241, 243, 1);
+}
