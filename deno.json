@@ -22,6 +22,7 @@
   ],
   "imports": {
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
+    "maplibre-gl": "npm:maplibre-gl@^4.7.1",
     "plotly.js-dist": "npm:plotly.js-dist@^2.35.2",
     "preact": "https://esm.sh/preact@10.22.0",
     "preact/": "https://esm.sh/preact@10.22.0/",

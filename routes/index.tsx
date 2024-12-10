@@ -1,7 +1,7 @@
 // import { h } from "preact";
 import { useRef } from "preact/hooks";
 import { useSignal } from "@preact/signals";
-import Map from "../islands/Map.tsx";
+import Map from "../islands/HousingMap.tsx";
 import { Button } from "../components/Button.tsx";
 
 // const btn = useRef()
@@ -21,7 +21,7 @@ export default function Home() {
           <img src="/logo.png" class={""} alt="logo" />
         </a>
         <a class={""} href={"/"}>
-          <h1 class="mx-2 text-xl my-2 font-bold">Guia de Acompanhamento à Moradia Estudantil<br/>(GAME)</h1>
+          <h1 class="mx-2 text-xl my-2 font-bold">Guia de Acomodações para Moradia Estudantil<br/>(GAME)</h1>
         </a>
       </div>
       <div class="mx-auto flex flex-col items-center justify-center">
@@ -50,9 +50,7 @@ export default function Home() {
         {/* <a href="/">
         <Button onClick={handleClick}>Formulário</Button>
         </a> */}
-        {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeyfPL0sFaUyK5mBI83g3mbCCf377Jl9YZ73GEZ12x-XMUiKA/viewform?embedded=true" width="640" height="1485" frameborder="0">Carregando…</iframe> */}
       </div>
-        {/* <footer><p>&copy; 2024, <a href="https://github.com/robcs9/gmme">Guia do Mochileiro das Moradias Estudantis</a></p></footer> */}
     </div>
   );
 }

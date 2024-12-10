@@ -9,7 +9,7 @@ import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index_bkp from "./routes/index.bkp.tsx";
 import * as $index from "./routes/index.tsx";
 import * as $Counter from "./islands/Counter.tsx";
-import * as $Map from "./islands/Map.tsx";
+import * as $HousingMap from "./islands/HousingMap.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
@@ -23,7 +23,7 @@ const manifest = {
   },
   islands: {
     "./islands/Counter.tsx": $Counter,
-    "./islands/Map.tsx": $Map,
+    "./islands/HousingMap.tsx": $HousingMap,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;
