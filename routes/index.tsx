@@ -41,9 +41,9 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <p class={"text-xl mt-6 font-semibold"}>A UFPE, por meio da Proaes, preparou este GAME para te ajudar. Desejamos sucesso na busca!! Bem-vindos e bem-vindas!!!</p>
+        <h3 class={"text-xl mt-6 font-semibold"}>A UFPE, por meio da Proaes, preparou este GAME para te ajudar. Desejamos sucesso na busca!! Bem-vindos e bem-vindas!!!</h3>
         {/* <h2 class="text-xl">Encontre  para você que quer morar próximo à sua universidade!</h2> */}
-        <h1 class="mt-4 text-2xl">Mapeamento de Moradias e Quartos Alugáveis próximos à UFPE</h1>
+        {/* <h2 class="mt-4 text-2xl">Mapeamento de Moradias e Quartos Alugáveis próximos à UFPE</h2> */}
         <Map myAPIKey={myAPIKey}/>
 
         {/* <Button ref={btn} onClick={handleClick}>test</Button> */}

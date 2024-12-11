@@ -3,11 +3,37 @@
 @tailwind utilities;
 @tailwind variants;
 
+:root {
+  --prevBgColor: rgba(20, 52, 71, 1);
+  --prevPrimaryColor: #ff0763;
+  --prevTextColor: rgba(238, 241, 243, 1);
+
+  --bgColor: #161e31;
+  --textColor: #fefdfb;
+  --primaryColor: #58d2f4;
+  --secondaryColor: #c084d6;
+  --tertiaryColor: #ef7ca4;
+}
 
 html,
 body {
-	@apply h-full overflow-hidden;
-  /* background-color: #86efac; */
-  background-color: rgba(20, 52, 71, 1);
-  color: rgba(238, 241, 243, 1);
+	@apply h-full;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+
+}
+h1 {
+  color: var(--primaryColor);
+}
+h2 {
+  color: var(--secondaryColor);
+}
+h3 {
+  color: var(--tertiaryColor);
+}
+li p {
+  color: var(--textColor);
+}
+li {
+  color: var(--textColor);
 }
