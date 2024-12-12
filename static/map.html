@@ -90,9 +90,11 @@
 
       const el = document.createElement("div");
       el.className = "marker";
-      el.style.backgroundImage = `url(/mdi--university.png)`;
-      el.style.width = `48px`;
-      el.style.height = `48px`;
+      el.style.backgroundImage = `url(/university-sprite.png)`;
+      el.style.width = `78px`;
+      el.style.height = `78px`;
+      el.style.backgroundRepeat = "no-repeat";
+      el.style.backgroundSize = "contain";
       //el.addEventListener("mouseenter", (e) => {
       //  map.getCanvas().style.cursor = "pointer";
       //});
@@ -125,16 +127,27 @@
           map.addImage("custom-marker", image.data);
           */
 
+          //const mapIcons = {
+          //  universityIcon: "mdi--university.png",
+          //  housingIcon: "material-symbols--other-houses.png",
+          //};
+
           const mapIcons = {
-            universityIcon: "mdi--university.png",
-            housingIcon: "material-symbols--other-houses.png",
+            universityIcon: "university-sprite.png",
+            housingIcon: "house-sprite-scaled.png",
           };
           //const icon = await map.loadImage(mapIcons.universityIcon);
-          let icon = await map.loadImage(`./${mapIcons.housingIcon}`);
-          map.addImage("housing-marker", icon.data);
           
-          icon = await map.loadImage(`./${mapIcons.universityIcon}`);
-          map.addImage("university-marker", icon.data);
+          // scale down sprite pictures before importing
+          let icon = await map.loadImage(`/${mapIcons.housingIcon}`);
+
+          
+          map.addImage("housing-marker", icon.data);
+
+
+          //icon = await map.loadImage(`./${mapIcons.universityIcon}`);
+          //map.addImage("university-marker", icon.data);
+
           //for(k of Object.keys(mapIcons)) {
           //  const icon = await map.loadImage(mapIcons[k]);
           //  //if(icon.ok)

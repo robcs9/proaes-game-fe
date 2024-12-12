@@ -1,3 +1,11 @@
+# Guia de Acomodações para Moradia Estudantil (GAME)
+
+Frontend do projeto GAME
+
+# Notes
+- Ideia interessante: substituir cores de elementos geográficos das Tiles ou criar Layer com elementos visuais baseados em mapas de jogos clássicos
+
+
 # Fresh project
 
 Your new Fresh project is ready to go. You can follow the Fresh "Getting
