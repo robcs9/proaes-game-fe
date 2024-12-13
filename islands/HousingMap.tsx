@@ -15,7 +15,7 @@ export default function HousingMap(props: MapProps) {
   
   return (
     <div class="py-2">
-      <iframe src="/map.html" width={"900"} height={"600px"}></iframe>
+      <iframe class={"rounded-lg"} src="/map.html" width={"900"} height={"600px"}></iframe>
     </div>
   );
 }
