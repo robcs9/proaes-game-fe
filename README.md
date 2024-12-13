@@ -3,6 +3,7 @@
 Frontend do projeto GAME
 
 # Notes
+- Corrigir responsividade para breakpoints de dispositivos móveis
 - Ideia interessante: substituir cores de elementos geográficos das Tiles ou criar Layer com elementos visuais baseados em mapas de jogos clássicos
 
 

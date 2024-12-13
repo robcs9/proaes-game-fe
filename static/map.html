@@ -7,8 +7,33 @@
       rel="stylesheet"
       href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css"
     />
-    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vast+Shadow&display=swap" rel="stylesheet">
     <style>
+      /* <uniquifier>: Use a unique and descriptive class name
+       * <weight>: Use a value from 300 to 800*/
+
+      .open-sans {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+      }
+
+      .vast-shadow-regular {
+        font-family: "Vast Shadow", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .poetsen-one-regular {
+        font-family: "Poetsen One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }      
+
       body {
         margin: 0;
         padding: 0;
@@ -32,12 +57,13 @@
     </style>
   </head>
   <body>
-    <div id="map"></div>
+    <div id="map" class="open-sans"></div>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <script>
       // Examples: https://maplibre.org/maplibre-gl-js/docs/examples/
       // About Popups
       // https://maplibre.org/maplibre-gl-js/docs/API/classes/Popup/
-
+      const titleFont = "poetsen-one-regular";
       const getData = async () => {
         try {
           //const json = await fetch("./plot.json");
@@ -90,16 +116,16 @@
 
       const el = document.createElement("div");
       el.className = "marker";
-      el.style.backgroundImage = `url(/university-sprite.png)`;
-      el.style.width = `78px`;
-      el.style.height = `78px`;
+      el.style.backgroundImage = `url(/assets/ufpe-sprite.png)`;
+      el.style.width = `110px`;
+      el.style.height = `110px`;
       el.style.backgroundRepeat = "no-repeat";
       el.style.backgroundSize = "contain";
       //el.addEventListener("mouseenter", (e) => {
       //  map.getCanvas().style.cursor = "pointer";
       //});
-
-      const centerPopup = new maplibregl.Popup({ offset: 25 }).setText("UFPE");
+      const centerMarkerText = "<a href='https://www.ufpe.br' target='_blank'>Universidade Federal de Pernambuco</a>";
+      const centerPopup = new maplibregl.Popup({ offset: 25 }).setHTML(centerMarkerText);
       const centerMarker = new maplibregl.Marker({ element: el })
         .setLngLat(center)
         .setPopup(centerPopup)
@@ -134,16 +160,14 @@
 
           const mapIcons = {
             universityIcon: "university-sprite.png",
-            housingIcon: "house-sprite-scaled.png",
+            housingIcon: "house-sprite.png",
           };
           //const icon = await map.loadImage(mapIcons.universityIcon);
-          
+
           // scale down sprite pictures before importing
-          let icon = await map.loadImage(`/${mapIcons.housingIcon}`);
+          let icon = await map.loadImage(`/assets/${mapIcons.housingIcon}`);
 
-          
           map.addImage("housing-marker", icon.data);
-
 
           //icon = await map.loadImage(`./${mapIcons.universityIcon}`);
           //map.addImage("university-marker", icon.data);
@@ -191,22 +215,39 @@
             type: "symbol",
             source: "points",
             layout: {
-              //"icon-image": "custom-marker",
+              //"icon-overlap": "always",
+              //"icon-ignore-placement": true,
               "icon-image": "housing-marker",
-              "icon-overlap": "always",
+              "text-field": ["get", "price"],
+              "icon-allow-overlap": true,
+              "text-allow-overlap": true, // false allows cluster-like behavior
+              "text-variable-anchor": ["top"],
+              //"text-radial-offset": 1.8,
+              "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+              //"text-font": ["Doto Sans Serif",],
+              //"text-justify": "auto",
+              //'text-offset': [1, 0.5], // x and y offset
+              //'text-size': 14,
+              //'text-anchor': 'top', // Anchor position (top, bottom, left, right, center)
+            },
+            paint: {
+              "text-color": "#ffffff",
+              "text-halo-color": "#0000FF",
+              "text-halo-width": 2,
+              "text-halo-blur": 0.5,
             },
           });
 
           // Places layer
-          map.addLayer({
-            id: "places",
-            type: "symbol",
-            source: "places",
-            layout: {
-              "icon-image": "university-marker",
-              "icon-overlap": "always",
-            },
-          });
+          //map.addLayer({
+          //  id: "places",
+          //  type: "symbol",
+          //  source: "places",
+          //  layout: {
+          //    "icon-image": "university-marker",
+          //    "icon-overlap": "always",
+          //  },
+          //});
         });
       })();
 
@@ -229,7 +270,7 @@
           ? `<span style="color: green">ATIVO</span>`
           : `<span style="color: red">INATIVO</span>`;
         const description = `
-          <strong style="font-size: 1.25em;">${title.toUpperCase()} (${status})</strong>
+          <strong class="${titleFont}" style="font-size: 1.25em;">${title.toUpperCase()} (${status})</strong>
           <p>${price}</p>
           <p>${address.toUpperCase()}</p>
           <p><strong>Tipo de Moradia:</strong> ${propertyType.toUpperCase()}</p>
