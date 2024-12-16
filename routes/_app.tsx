@@ -15,8 +15,8 @@ export default function App({ Component }: PageProps) {
           <Component />
         </main>
         <footer class={"flex justify-center my-5"}>
-        <a href="https://www.ufpe.br/proaes" target={"_blank"}><p>&copy; 2024 PROAES UFPE</p></a>
-          </footer>
+          <a href="https://www.ufpe.br/proaes" target={"_blank"}><p>&copy; 2024 PROAES UFPE</p></a>
+        </footer>
       </body>
     </html>
   );

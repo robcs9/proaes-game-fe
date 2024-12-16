@@ -7,15 +7,19 @@ import { Map } from "maplibre-gl"
 // const ref = createRef()
 
 interface MapProps {
-  myAPIKey: Signal<string|undefined>;
+  //myAPIKey: Signal<string|undefined>;
+  //maxHeight: string;
+  //maxWidth: string;
+  className: string;
 }
 
 
 export default function HousingMap(props: MapProps) {
   
   return (
-    <div class="py-2">
-      <iframe class={"rounded-lg"} src="/map.html" width={"900"} height={"600px"}></iframe>
+    <div class="py-2 size-fit">
+      {<iframe class={props.className} src="/map.html"></iframe>}
+      {/* {<iframe class={"rounded-lg sm:max-w-1"} src="/map.html" width={"900px"} height={"600px"}></iframe>} */}
     </div>
   );
 }
