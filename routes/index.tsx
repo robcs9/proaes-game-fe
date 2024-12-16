@@ -11,23 +11,20 @@ import { Button } from "../components/Button.tsx";
 const handleClick = () => {
 };
 export default function Home() {
-  // const myAPIKey = useSignal(Deno.env.get("GEOAPIFY_API_KEY"));
 
   return (
-    <div class={"flex flex-col justify-between"}>
+    <div class={""}>
       
-      <header class={"flex justify-center"}>
-        <a class={"flex items-center"} href={"/"}>
-          <img src="/assets/logo.png" class={"w-1/4"} alt="logo" />
-          {/* <a class={""} href={"/"}> */}
-          <h1 class="px-1 text-4xl my-2 black-ops-one-regular text-center">
-            GUIA DE ACOMODAÇÕES<br />PARA MORADIA ESTUDANTIL
+      <header class={"bg-blue-500 text-white p-4"}>
+        <a class={"block"} href={"/"}>
+          <img src="/assets/logo.png" class="" alt="logo" />
+          <h1 class="text-xl text-center black-ops-one-regular">
+            GUIA DE ACOMODAÇÕES PARA MORADIA ESTUDANTIL
           </h1>
-          {/* </a> */}
         </a>
       </header>
       
-      <main class="mx-auto flex flex-col items-center justify-center">
+      <main class="container mx-auto p-4">
         <div class="flex flex-col justify-center items-center mx-20 roboto-light">
           <ul>
             <li>
@@ -58,10 +55,9 @@ export default function Home() {
         </h3>
 
         <Map className="rounded-lg w-full" />
-        {/* <Map className="h-10" myAPIKey={myAPIKey}/> */}
       </main>
       
-      <footer class={"flex justify-center my-5"}>
+      <footer class={"bg-blue-500 text-white p-4 mt-8"}>
         <a href="https://www.ufpe.br/proaes" target={"_blank"}>
           <p>&copy; 2024 PROAES UFPE</p>
         </a>

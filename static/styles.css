@@ -21,11 +21,11 @@
 
 html,
 body {
-  @apply h-full;
-  background-color: var(--bgColor);
-  color: var(--textColor);
+  /* @apply h-full; */
+  /* background-color: var(--bgColor); */
+  /* color: var(--textColor); */
 }
-h1 {
+/* h1 {
   color: var(--primaryColor);
 }
 h2 {
@@ -39,7 +39,7 @@ li p {
 }
 li {
   color: var(--textColor);
-}
+} */
 
 
 .black-ops-one-regular {
