@@ -17,9 +17,10 @@ interface MapProps {
 export default function HousingMap(props: MapProps) {
   
   return (
-    <div class="py-2 size-fit">
-      {<iframe class={props.className} src="/map.html"></iframe>}
-      {/* {<iframe class={"rounded-lg sm:max-w-1"} src="/map.html" width={"900px"} height={"600px"}></iframe>} */}
-    </div>
+    // <div class="border border-red-600">
+      <>
+        <iframe class={""+props.className} src="/map.html"></iframe>
+      </>
+    // </div>
   );
 }

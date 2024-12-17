@@ -21,7 +21,9 @@
 
 html,
 body {
-  /* @apply h-full; */
+  @apply h-full;
+  margin: 0;
+  padding: 0;
   /* background-color: var(--bgColor); */
   /* color: var(--textColor); */
 }

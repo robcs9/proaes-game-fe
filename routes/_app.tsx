@@ -11,8 +11,9 @@ export default function App({ Component }: PageProps) {
         <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
       </head>
       {/* <body class={"flex flex-col justify-between"}> */}
-      <body>
+      <body class={""}>
         <Component />
+        {/* <p>foo</p> */}
       </body>
     </html>
   );
