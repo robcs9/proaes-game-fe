@@ -37,7 +37,7 @@ export default function Home() {
       <main class="container p-4 flex flex-col flex-grow gap-4 justify-center items-center w-[90%] rounded-md border border-violet-400 overflow-clip">
         {/* <div class="flex flex-col justify-center items-center mx-20 roboto-light"> */}
         <div class="flex flex-col justify-center items-center roboto-light">
-          <ul>
+          {/* <ul>
             {list.map((elem, idx) => (
               <li key={`main-li-${idx}`}>
                 <h2 className="text-md text-center">
@@ -45,9 +45,17 @@ export default function Home() {
                 </h2>
               </li>
             ))}
-          </ul>
-        <h2 class={"py-2 text-md font-semibold roboto-bold-italic text-center"}>
-          A UFPE, por meio da Proaes, preparou este GAME para te ajudar!
+          </ul> */}
+        {/* <h2 class={"text- text-justify"}>
+          Está chegando à UFPE e não sabe onde morar?
+          Conseguiu a tão sonhada aprovação no SISU, calouro?
+          Está vindo em intercâmbio ou mobilidade, visitante?
+          Procurando um novo lugar para morar, vetereno?
+        </h2> */}
+        {/* <h2 class={"py-2 text-md font-semibold roboto-bold-italic text-center"}> */}
+        <h2 class={"py-2 text-md roboto-regular text-center"}>
+          Está chegando à UFPE e não sabe onde <strong>morar</strong>?<br/>
+          A UFPE, por meio da Proaes, preparou este <strong>GAME</strong> para te ajudar!
           Desejamos sucesso na busca e sejam bem-vindos e bem-vindas!!!
         </h2>
         </div>
