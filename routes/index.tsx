@@ -53,7 +53,7 @@ export default function Home() {
           Procurando um novo lugar para morar, vetereno?
         </h2> */}
         {/* <h2 class={"py-2 text-md font-semibold roboto-bold-italic text-center"}> */}
-        <h2 class={"py-2 text-md roboto-regular text-center"}>
+        <h2 class={"py-2 text-md sm:text-xl roboto-regular text-center"}>
           Está chegando à UFPE e não sabe onde <strong>morar</strong>?<br/>
           A UFPE, por meio da Proaes, preparou este <strong>GAME</strong> para te ajudar!
           Desejamos sucesso na busca e sejam bem-vindos e bem-vindas!!!
