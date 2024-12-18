@@ -19,45 +19,45 @@ export default function Home() {
   ];
 
   return (
-    <div class={"min-h-screen flex flex-col "}>
-      <header class={"bg-blue-500 text-white flex justify-center p-2"}>
+    <div class={"min-h-screen flex flex-col items-center"}>
+      <header class={" text-white flex justify-center p-2"}>
+      {/* <header class={"bg-blue-500 text-white flex justify-center p-2"}> */}
         <a class={"inline-block"} href={"/"}>
-          <div class={"flex gap-2"}>
-            <img src="/assets/logo.png" class="w-14" alt="logo" />
+          <div class={"flex gap-2 items-center border border-[#58d2f4] px-2 rounded-md"}>
+            <img src="/assets/logo.png" class="w-12" alt="logo" />
             <h1 class="text-xs text-nowrap text-center black-ops-one-regular">
-              GUIA DE ACOMODAÇÕES<br />PARA MORADIA<br />ESTUDANTIL
+              GUIA DE <span class={"text-[#ff0763]"}>ACOMODAÇÕES</span> PARA<br />MORADIA ESTUDANTIL
             </h1>
           </div>
         </a>
       </header>
 
       {/* <main class="container mx-auto p-2 flex-grow"> */}
-      <main class="container mx-auto p-2">
+      <main class="container p-4 flex flex-col flex-grow gap-4 justify-evenly items-center w-[90%] rounded-md border border-violet-400">
         {/* <div class="flex flex-col justify-center items-center mx-20 roboto-light"> */}
-        <div class="justify-center items-center p-2 roboto-light">
+        <div class="justify-center items-center roboto-light">
           <ul>
             {mainList.map((elem, idx) => (
               <li key={`main-li-${idx}`}>
-                <p className="">
+                <h2 className="text-md">
                   {elem}
-                </p>
+                </h2>
               </li>
             ))}
           </ul>
-        </div>
-        <h3 class={"text-xl my-6 font-semibold roboto-bold-italic text-center"}>
+        <h2 class={"py-2 text-sm font-semibold roboto-bold-italic text-justify"}>
           A UFPE, por meio da Proaes, preparou este GAME para te ajudar!
-          Desejamos sucesso na busca!!<br />Bem-vindos e bem-vindas!!!
-        </h3>
-
-        <div class={"w-[95vw] bg-cyan-600"}>
-        <Map className="w-[50%]" />
-
+          Desejamos sucesso na busca e sejam bem-vindos e bem-vindas!!!
+        </h2>
         </div>
-        <div class={"grid grid-cols-1 sm:grid-cols-2 gap-4"}>
-          <div class={""}>
+
+        <div class={"w-[90vw] h-[60vh]"}>
+          <Map className="w-[100%] h-[100%]" />
+        </div>
+        {/* <div class={"grid grid-cols-1 sm:grid-cols-2 gap-4"}> */}
+          {/* <div class={""}> */}
             {/* <Map className="w-dvw h-[50dvh] rounded-lg shadow-lg" /> */}
-          </div>
+          {/* </div> */}
 
           {
             /* <div class="bg-white p-6 shadow-md rounded">
@@ -71,10 +71,11 @@ export default function Home() {
             <p>Some content here...</p>
           </div> */
           }
-        </div>
+        {/* </div> */}
       </main>
 
-      <footer class={"bg-blue-500 text-white p-2 mt-auto"}>
+      <footer class={"text-white p-2 mt-auto"}>
+      {/* <footer class={"bg-blue-500 text-white p-2 mt-auto"}> */}
         <a
           class={"inline-block"}
           href="https://www.ufpe.br/proaes"

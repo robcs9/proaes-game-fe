@@ -8,9 +8,9 @@
 @tailwind variants;
 
 :root {
-  --prevBgColor: rgba(20, 52, 71, 1);
+  --prevBgColor: #143447;
   --prevPrimaryColor: #ff0763;
-  --prevTextColor: rgba(238, 241, 243, 1);
+  --prevTextColor: #eef1f3;
   
   --bgColor: #161e31;
   --textColor: #fefdfb;
@@ -24,8 +24,16 @@ body {
   @apply h-full;
   margin: 0;
   padding: 0;
-  /* background-color: var(--bgColor); */
-  /* color: var(--textColor); */
+  /* Dark mode */
+  background-color: var(--bgColor);
+  color: var(--textColor);
+}
+footer, header {
+  background-color: var(--bgColor);
+}
+
+main {
+  background-color: var(--prevBgColor);
 }
 /* h1 {
   color: var(--primaryColor);
