@@ -1,1 +1,1786 @@
-{"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"id": 1, "title": "PENSIONATO CIDADE UNIVERSITÁRIA - UFPE", "price": "R$ 680", "address": "Rua Deputado Cunha Rabelo, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/pensionato-cidade-universitaria-ufpe-1316924785", "property_type": "Aluguel de quartos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9478451, -8.0455847]}}, {"type": "Feature", "properties": {"id": 2, "title": "Kitnet pra alugar na torre ", "price": "R$ 550", "address": "Rua Diogo Álvares, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-pra-alugar-na-torre-1356285559", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:09", "active": true}, "geometry": {"type": "Point", "coordinates": [-46.8711441, -23.5763363]}}, {"type": "Feature", "properties": {"id": 5, "title": "alugo casa no bairro roda de fogo valor 500,00 reais ja com a agua incluso", "price": "R$ 500", "address": "Rua Luiz da Câmara Cascudo, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-no-bairro-roda-de-fogo-valor-500-00-reais-ja-com-a-agua-incluso-1356103505", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:09", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.939751, -8.056377]}}, {"type": "Feature", "properties": {"id": 10, "title": "Casa próximo a ufpe 600mts ", "price": "R$ 950", "address": "Rua Canaã, Cidade Universitária, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-proximo-a-ufpe-600mts-1129224132", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:09", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9228903, -8.0148472]}}, {"type": "Feature", "properties": {"id": 12, "title": "Salas Aluguel Cidade Universitária Várzea", "price": "R$ 800", "address": "Rua Visconde de Barbacena, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/salas-aluguel-cidade-universitaria-varzea-1355492941", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9443072, -8.041829]}}, {"type": "Feature", "properties": {"id": 16, "title": "Quartos individuais para alunas de mestrado e doutorado próximo a UFPE", "price": "R$ 600", "address": "Rua Tomé do Rego Cavalcanti, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quartos-individuais-para-alunas-de-mestrado-e-doutorado-proximo-a-ufpe-1355301860", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9541351, -8.0488251]}}, {"type": "Feature", "properties": {"id": 17, "title": "Loft Derby", "price": "R$ 150", "address": "Rua Arlindo Gouveia, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/loft-derby-1355197921", "property_type": "Apartamentos", "modifiedAt": "21/11/2024 07:49:09", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.903007, -8.0570025]}}, {"type": "Feature", "properties": {"id": 19, "title": "kitnet próximo a UFPE na Várzea - Recife - PE", "price": "R$ 650", "address": "Rua Estevão de Sá, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-proximo-a-ufpe-na-varzea-recife-pe-1354617408", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9498148, -8.043282]}}, {"type": "Feature", "properties": {"id": 22, "title": "Aluguel Flat/Kitnet na Várzea!", "price": "R$ 450", "address": "Rua Gastão Vidigal, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-flat-kitnet-na-varzea-1354276311", "property_type": "Apartamentos", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9570306, -8.0300925]}}, {"type": "Feature", "properties": {"id": 23, "title": "Quarto para alugar no Cordeiro ", "price": "R$ 650", "address": "Rua Elizeu Cavalcanti, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-alugar-no-cordeiro-1354151150", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.920872, -8.048964]}}, {"type": "Feature", "properties": {"id": 25, "title": "Aluga-se quarto  para estudantes e sala comercial próximo a UFPE", "price": "R$ 750", "address": "Rua General Polidoro, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-quarto-para-estudantes-e-sala-comercial-proximo-a-ufpe-1250165482", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9456277, -8.0373588]}}, {"type": "Feature", "properties": {"id": 26, "title": "Kitnet mobiliado em jardim Petrópolis na várzea ", "price": "R$ 1.000", "address": "Rua Jaguaribara, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-mobiliado-em-jardim-petropolis-na-varzea-1353898516", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9666566, -8.0381959]}}, {"type": "Feature", "properties": {"id": 27, "title": "Kitnet Individual para Estudante UFPE", "price": "R$ 750", "address": "Rua Governador Lopo Garro, Cidade Universitária, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-individual-para-estudante-ufpe-1353676606", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9431024, -8.0532678]}}, {"type": "Feature", "properties": {"id": 28, "title": "Casa na Várzea ", "price": "R$ 800", "address": "Avenida Afonso Olindense, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-na-varzea-1353526853", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.957054, -8.0408932]}}, {"type": "Feature", "properties": {"id": 29, "title": "Vendo ou alugo", "price": "R$ 380", "address": "Rua Vale do Piauí, Passarinho, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/vendo-ou-alugo-1353487635", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.920399, -8.055802]}}, {"type": "Feature", "properties": {"id": 30, "title": "Casa com Sala Ampla", "price": "R$ 750", "address": "Rua José de Holanda, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-com-sala-ampla-1344808939", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-49.5063626, -28.2925954]}}, {"type": "Feature", "properties": {"id": 31, "title": "KITINETE * EM FRENTE  ao CFCH * UFPE  **** APT com 2 quartos próximo do HC UFPE", "price": "R$ 850", "address": "Avenida Professor Artur de Sá, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitinete-em-frente-ao-cfch-ufpe--apt-com-2-quartos-proximo-do-hc-ufpe-1150440635", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.954965800000004, -8.0463426]}}, {"type": "Feature", "properties": {"id": 33, "title": "Alugo Kitnet e outros imóveis próximos da UFPE", "price": "R$ 800", "address": "Avenida Professor Artur de Sá, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-kitnet-e-outros-imoveis-proximos-da-ufpe-1353319772", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.953965800000006, -8.0463426]}}, {"type": "Feature", "properties": {"id": 39, "title": "aluga apartamento ", "price": "R$ 900", "address": "Rua Doutor Correia da Silva, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-apartamento-1355042983", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9582279, -8.0480502]}}, {"type": "Feature", "properties": {"id": 43, "title": "Alugo loft , apartamento, casa", "price": "R$ 850", "address": "Rua Xavier Sobrinho, Prado, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-loft-apartamento-casa-1321254473", "property_type": "Apartamentos", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.919887200000005, -8.0589575]}}, {"type": "Feature", "properties": {"id": 46, "title": "Casa no Cordeiro ", "price": "R$ 500", "address": "Rua Antônio Machado, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-no-cordeiro-1352223547", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9226611, -8.0552739]}}, {"type": "Feature", "properties": {"id": 48, "title": "Loft 2 aluguel por diária no Derby.", "price": "R$ 150", "address": "Rua Arlindo Gouveia, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/loft-2-aluguel-por-diaria-no-derby-1352036931", "property_type": "Apartamentos", "modifiedAt": "21/11/2024 07:49:10", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.902007000000005, -8.0570025]}}, {"type": "Feature", "properties": {"id": 50, "title": "Aluguel de quarto na Torre- Recife (somente para meninas)", "price": "R$ 666", "address": "Rua Visconde de Itaparica, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-de-quarto-na-torre-recife-somente-para-meninas-1351699611", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-49.505362600000005, -28.2925954]}}, {"type": "Feature", "properties": {"id": 51, "title": "Aluguel kinet na várzea ", "price": "R$ 470", "address": "Rua Emiliano Braga, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-kinet-na-varzea-1351675886", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.945364, -8.0384222]}}, {"type": "Feature", "properties": {"id": 53, "title": "Aluga-se um Kitnet próx a UFPE", "price": "R$ 780", "address": "Rua das Palmeiras, Cidade Universitária, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-um-kitnet-prox-a-ufpe-1350624460", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9312478, -8.0059656]}}, {"type": "Feature", "properties": {"id": 54, "title": "Republica para estudantes próximo a UFPE", "price": "R$ 500", "address": "Rua Pantaleão Cirne, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/republica-para-estudantes-proximo-a-ufpe-1350429778", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9455465, -8.054157]}}, {"type": "Feature", "properties": {"id": 55, "title": "Quarto privativo em casa compartilhada. Perto da FASUP", "price": "R$ 600", "address": "Recife, Engenho do Meio", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-privativo-em-casa-compartilhada-perto-da-fasup-1349965285", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-53.184089, -25.423559]}}, {"type": "Feature", "properties": {"id": 56, "title": "Aluguel quarto na várzea ", "price": "R$ 400", "address": "Rua Padre Champagnat, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-quarto-na-varzea-1349918930", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9477807, -8.0423004]}}, {"type": "Feature", "properties": {"id": 57, "title": "ALUGO QUARTO EM AP MOBILIADO", "price": "R$ 900", "address": "Rua Cardeal Dom Augusto, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-quarto-em-ap-mobiliado-1349867065", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.928864, -8.0546303]}}, {"type": "Feature", "properties": {"id": 58, "title": "Alugo casa na Iputiga", "price": "R$ 700", "address": "Rua Capitão Aurélio de Araújo, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-na-iputiga-1349805656", "property_type": "Casas", "modifiedAt": "28/11/2024 08:17:33", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9323946, -8.0398859]}}, {"type": "Feature", "properties": {"id": 60, "title": "Kitnet Para Alugar", "price": "R$ 850", "address": "Rua Souza Bandeira, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-para-alugar-1349724790", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-49.50436260000001, -28.2925954]}}, {"type": "Feature", "properties": {"id": 61, "title": "CASA PRA ALUGAR NA VÁRZEA/CDU", "price": "R$ 700", "address": "Rua Mário Campelo, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-pra-alugar-na-varzea-cdu-1349721740", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9597413, -8.050849]}}, {"type": "Feature", "properties": {"id": 62, "title": "1 quarto em prédio novinho, próximo ao Jockey!", "price": "R$ 850", "address": "Rua Félix Cavalcante Albuquerque, Prado, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/1-quarto-em-predio-novinho-proximo-ao-jockey-1349668444", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9122019, -8.0573814]}}, {"type": "Feature", "properties": {"id": 63, "title": "Quarto mobiliado ", "price": "R$ 550", "address": "Rua Gastão Vidigal, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-mobiliado-1349391953", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.956030600000005, -8.0300925]}}, {"type": "Feature", "properties": {"id": 66, "title": "Casa para alugar, recém reformada", "price": "R$ 600", "address": "Rua Engenheiro Florisval Silvestre Neto, Caxangá, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-para-alugar-recem-reformada-1350713749", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.949692500000005, -8.0232572]}}, {"type": "Feature", "properties": {"id": 67, "title": "Alugo Kitnet  próx. A Reitoria da UFPE(ENGENHO DO MEIO).", "price": "R$ 700", "address": "Rua Jacaraú, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-kitnet-prox-a-reitoria-da-ufpe-engenho-do-meio-1339752285", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9459553, -8.0563566]}}, {"type": "Feature", "properties": {"id": 68, "title": "Quartos para estudantes ou pessoas que trabalha em Recife .", "price": "R$ 400", "address": "Rua Alexandria, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quartos-para-estudantes-ou-pessoas-que-trabalha-em-recife-1347433153", "property_type": "Aluguel de quartos", "modifiedAt": "21/11/2024 07:49:11", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9411816, -8.0629303]}}, {"type": "Feature", "properties": {"id": 69, "title": "APARTAMENTO NO CORDEIRO, BONGI", "price": "R$ 790", "address": "Rua Xavier Sobrinho, Prado, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-no-cordeiro-bongi-1349005680", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.91888720000001, -8.0589575]}}, {"type": "Feature", "properties": {"id": 89, "title": "Casa Ponta de Serrambi 5 Quartos", "price": "R$ 800", "address": "Rua Pessoa de Melo, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-ponta-de-serrambi-5-quartos-1322649810", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9074902, -8.05129595]}}, {"type": "Feature", "properties": {"id": 110, "title": "Casa de vila para aluguel com 40 mts² com 2 quartos no Cordeiro - Recife .", "price": "R$ 650", "address": "Rua Felixlândia, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-de-vila-para-aluguel-com-40-mts-com-2-quartos-no-cordeiro-recife-1293934549", "property_type": "Casas", "modifiedAt": "21/11/2024 07:49:12", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.935308500000005, -8.0542571]}}, {"type": "Feature", "properties": {"id": 112, "title": "Apartamento para aluguel, 1 quarto, 1 vaga, Cordeiro - Recife/PE", "price": "R$ 880", "address": "Rua Francisco Vita, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-para-aluguel-1-quarto-1-vaga-cordeiro-recife-pe-1282369079", "property_type": "Apartamentos", "modifiedAt": "21/11/2024 07:49:12", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9260977, -8.0521195]}}, {"type": "Feature", "properties": {"id": 117, "title": "500", "price": "R$ 500", "address": "Rua Luiz da Câmara Cascudo, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/500-1356103505", "property_type": "Casas", "modifiedAt": "28/11/2024 08:17:33", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.941059, -8.061939]}}, {"type": "Feature", "properties": {"id": 118, "title": "RESIDÊNCIA ESTUDANTIL - 300 metros da UFPE", "price": "R$ 480", "address": "Rua Francisco Correia de Araújo, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/residencia-estudantil-300-metros-da-ufpe-1269278156", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:48", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.945157300000005, -8.0422408]}}, {"type": "Feature", "properties": {"id": 120, "title": "Kitinet para Alugar - Várzea - Recife", "price": "R$ 600", "address": "Rua Gastão Vidigal, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitinet-para-alugar-varzea-recife-1358039606", "property_type": "Casas", "modifiedAt": "28/11/2024 08:17:32", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.95503060000001, -8.0300925]}}, {"type": "Feature", "properties": {"id": 125, "title": "Aluga-se kitnet", "price": "R$ 500", "address": "Rua Tomé do Rego Cavalcanti, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kitnet-1357281750", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.953135100000004, -8.0488251]}}, {"type": "Feature", "properties": {"id": 126, "title": "Beira Mar em Itamaracá 2qts Com Ar, Varanda, Redarios", "price": "R$ 350", "address": "Rua José Osório, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/beira-mar-em-itamaraca-2qts-com-ar-varanda-redarios-1357221607", "property_type": "Apartamentos", "modifiedAt": "28/11/2024 08:17:32", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.912055, -8.0539454]}}, {"type": "Feature", "properties": {"id": 127, "title": "Kit net", "price": "R$ 600", "address": "Rua Frei Jaboatão, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-1357099226", "property_type": "Casas", "modifiedAt": "28/11/2024 08:17:32", "active": true}, "geometry": {"type": "Point", "coordinates": [-46.8710098, -23.1578371]}}, {"type": "Feature", "properties": {"id": 128, "title": "Quitinete mobiliado, pra solteiros, transversal \"caxangá\"", "price": "R$ 700", "address": "Estrada do Forte do Arraial Novo do Bom Jesus, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quitinete-mobiliado-pra-solteiros-transversal-caxanga-1357042006", "property_type": "Aluguel de quartos", "modifiedAt": "28/11/2024 08:17:32", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.930835, -8.056174]}}, {"type": "Feature", "properties": {"id": 132, "title": "Aluga-se kit Net na cidade universitária Bairro da várzea ", "price": "R$ 500", "address": "Avenida Professor Artur de Sá, Cidade Universitária, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kit-net-na-cidade-universitaria-bairro-da-varzea-1356596366", "property_type": "Casas", "modifiedAt": "28/11/2024 08:17:32", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9520035, -8.046395]}}, {"type": "Feature", "properties": {"id": 134, "title": "Aluguel de kitnet ", "price": "R$ 400", "address": "Rua Piranhas, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-de-kitnet-1357764979", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9126573, -8.0441214]}}, {"type": "Feature", "properties": {"id": 136, "title": "Excelente apartamento no melhor local do bairro da Torre.", "price": "R$ 170", "address": "Rua Davino Pontual, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/excelente-apartamento-no-melhor-local-do-bairro-da-torre-1139565286", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-49.50336260000001, -28.2925954]}}, {"type": "Feature", "properties": {"id": 137, "title": "UFPE - Kitnet, Apartamento, Quarto - UFRPE", "price": "R$ 0", "address": "Rua Antônio da Silva, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/ufpe-kitnet-apartamento-quarto-ufrpe-1360035880", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:48", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9450369, -8.0543245]}}, {"type": "Feature", "properties": {"id": 139, "title": "Alugo quarto para meninas.", "price": "R$ 600", "address": "Rua Real da Torre, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-quarto-para-meninas-1360024807", "property_type": "Aluguel de quartos", "modifiedAt": "05/12/2024 08:38:29", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.907207400000004, -8.0508853]}}, {"type": "Feature", "properties": {"id": 144, "title": "Alugo casa ", "price": "R$ 750", "address": "Rua Diogo Barbosa Machado, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-1359819573", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:36", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9599639, -8.0427242]}}, {"type": "Feature", "properties": {"id": 147, "title": "KITNET  IPUTINGA RS430", "price": "R$ 450", "address": "Rua Umari, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-iputinga-rs430-1359651976", "property_type": "Apartamentos", "modifiedAt": "05/12/2024 08:38:30", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9419187, -8.030887]}}, {"type": "Feature", "properties": {"id": 150, "title": "Casa de um quarto em condomínio fechado ", "price": "R$ 700", "address": "Rua Professor Severino Jordão Emerenciano, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-de-um-quarto-em-condominio-fechado-1359289935", "property_type": "Casas", "modifiedAt": "05/12/2024 08:38:30", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9362807, -8.0342797]}}, {"type": "Feature", "properties": {"id": 152, "title": "Quarto individual Masculino ", "price": "R$ 450", "address": "Rua Elpídio Branco, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-individual-masculino-1359182870", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9501129, -8.0403065]}}, {"type": "Feature", "properties": {"id": 155, "title": "kitnet na cidade universitária", "price": "R$ 800", "address": "Rua Abatia, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-na-cidade-universitaria-1359095875", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:36", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.948481, -8.0421525]}}, {"type": "Feature", "properties": {"id": 156, "title": "Apartamento para aluguel, 1 quarto, 1 vaga, Iputinga - Recife/PE", "price": "R$ 800", "address": "Rua Pereira Coutinho Filho, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-para-aluguel-1-quarto-1-vaga-iputinga-recife-pe-1358972163", "property_type": "Apartamentos", "modifiedAt": "05/12/2024 08:38:30", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9321246, -8.0373592]}}, {"type": "Feature", "properties": {"id": 157, "title": "Alugo dois quartos individuais para mulheres em apartamento", "price": "R$ 550", "address": "Estrada do Barbalho, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-dois-quartos-individuais-para-mulheres-em-apartamento-1358813412", "property_type": "Apartamentos", "modifiedAt": "05/12/2024 08:38:30", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9407693, -8.0379536]}}, {"type": "Feature", "properties": {"id": 158, "title": "Quarto em apartamento para MULHER ", "price": "R$ 800", "address": "Rua Antônio Valdevino Costa, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-em-apartamento-para-mulher-1358652089", "property_type": "Aluguel de quartos", "modifiedAt": "05/12/2024 08:38:30", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9327634, -8.056275]}}, {"type": "Feature", "properties": {"id": 159, "title": "Quarto c/ Banheiro Privativo UFPE - Mestrandos Doutorandos Pós Graduação", "price": "R$ 750", "address": "Rua Francisco Correia de Araújo, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-c-banheiro-privativo-ufpe-mestrandos-doutorandos-pos-graduacao-1325904592", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.94415730000001, -8.0422408]}}, {"type": "Feature", "properties": {"id": 160, "title": "Quarto para Alugar", "price": "R$ 500", "address": "Rua Antônio Borges Uchôa, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-alugar-1358448374", "property_type": "Aluguel de quartos", "modifiedAt": "05/12/2024 08:38:30", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9423921, -8.0564889]}}, {"type": "Feature", "properties": {"id": 161, "title": "Aluga-se casa Maracaipe ", "price": "R$ 0", "address": "Rua Zilda S. de Santana, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-maracaipe-1358290301", "property_type": "Casas", "modifiedAt": "05/12/2024 08:38:31", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9146393, -8.0459123]}}, {"type": "Feature", "properties": {"id": 163, "title": "Aluguel de quarto - Bairro da Madalena ", "price": "R$ 650", "address": "Rua Benfica, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-de-quarto-bairro-da-madalena-1360149910", "property_type": "Aluguel de quartos", "modifiedAt": "05/12/2024 08:38:31", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9076687, -8.0576866]}}, {"type": "Feature", "properties": {"id": 164, "title": "casa", "price": "R$ 650", "address": "Recife, Torrões", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-1359433964", "property_type": "Casas", "modifiedAt": "05/12/2024 08:38:31", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.8838193, -8.0584933]}}, {"type": "Feature", "properties": {"id": 165, "title": "Casa pra alugar ", "price": "R$ 500", "address": "Recife, Zumbi", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-pra-alugar-1358898572", "property_type": "Casas", "modifiedAt": "05/12/2024 08:38:31", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.8828193, -8.0584933]}}, {"type": "Feature", "properties": {"id": 166, "title": "Kit net prox a UFRPE,UFPE c taxas e mobilia ", "price": "R$ 600", "address": "Rua Engenheiro Florisval Silvestre Neto, Caxangá, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-prox-a-ufrpe-ufpe-c-taxas-e-mobilia-1354674543", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:36", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.94869250000001, -8.0232572]}}, {"type": "Feature", "properties": {"id": 167, "title": "Alg Kitnet para Estudantes Taxas Inclusas em Frente a UFPE", "price": "R$ 800", "address": "Rua Acadêmico Hélio Ramos, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alg-kitnet-para-estudantes-taxas-inclusas-em-frente-a-ufpe-1349339009", "property_type": "Casas", "modifiedAt": "05/12/2024 08:38:32", "active": true}, "geometry": {"type": "Point", "coordinates": [-56.131502, -15.647497]}}, {"type": "Feature", "properties": {"id": 170, "title": "Aluguel Quarto -  1 quarto para 2 pessoas (Beliche inclusa) 1 quarto para 1 pessoa", "price": "R$ 650", "address": "Rua Félix Cavalcante Albuquerque, Prado, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-quarto-1-quarto-para-2-pessoas-beliche-inclusa-1-quarto-para-1-pessoa-1360204611", "property_type": "Aluguel de quartos", "modifiedAt": "05/12/2024 12:31:29", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9112019, -8.0573814]}}, {"type": "Feature", "properties": {"id": 174, "title": "ALUGA-SE APARTAMENTO EM CIDADE UNIVERSITÁRIA ", "price": "R$ 750", "address": "Rua Canaã, Cidade Universitária, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-apartamento-em-cidade-universitaria-1360438833", "property_type": "Apartamentos", "modifiedAt": "06/12/2024 09:25:42", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9218903, -8.0148472]}}, {"type": "Feature", "properties": {"id": 176, "title": "apartamento aluga se na várzea ", "price": "R$ 700", "address": "Rua Tasso Fragoso, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-aluga-se-na-varzea-1360241213", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-56.158888, -15.633193]}}, {"type": "Feature", "properties": {"id": 177, "title": "Salas comerciais ", "price": "R$ 400", "address": "Rua Major Marcelo Menezes, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/salas-comerciais-1362199407", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:48", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9405293, -8.0327791]}}, {"type": "Feature", "properties": {"id": 178, "title": "Aluga casa na Iputinga com 2 quartos ", "price": "R$ 730", "address": "Rua Coronel Lima Botelho, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-casa-na-iputinga-com-2-quartos-1362183629", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:48", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9311019, -8.034024]}}, {"type": "Feature", "properties": {"id": 179, "title": "Kitnet na Iputinga", "price": "R$ 500", "address": "Rua Engenheiro Moacyr Parahyba, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-na-iputinga-1362171016", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:48", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.939145, -8.03584]}}, {"type": "Feature", "properties": {"id": 181, "title": "KITNET R$ 700, CDU VARZEA , COM SALA COZINHA, BANHEIRO PROXIMO A AVENIDA", "price": "R$ 700", "address": "Rua Poloni, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-r-700-cdu-varzea-com-sala-cozinha-banheiro-proximo-a-avenida-1361930355", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:48", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9516091, -8.0437722]}}, {"type": "Feature", "properties": {"id": 182, "title": "CASA EM ITAMARACÁ - LER O ANUNCIO", "price": "R$ 400", "address": "Rua Doutor José Anastácio da Silva Guimarães, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-em-itamaraca-ler-o-anuncio-1361768338", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.928574, -8.0383548]}}, {"type": "Feature", "properties": {"id": 183, "title": "Casa para alugar ", "price": "R$ 700", "address": "Rua Severino Pessoa, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-para-alugar-1361725353", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9121891, -8.0513806]}}, {"type": "Feature", "properties": {"id": 184, "title": "Kit Net na Varzea UFPE Agua, Luz e Internet Gratis ", "price": "R$ 590", "address": "Rua das Palmeiras, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-na-varzea-ufpe-agua-luz-e-internet-gratis-1361597719", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9789165, -8.0389937]}}, {"type": "Feature", "properties": {"id": 186, "title": "Casa 03 quartos no Cordeiro", "price": "R$ 600", "address": "Rua Joaquim Alheiros, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-03-quartos-no-cordeiro-1361418557", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9190064, -8.0459986]}}, {"type": "Feature", "properties": {"id": 187, "title": "Alugo kitnet na várzea ", "price": "R$ 600", "address": "Rua Dona Maria Lacerda, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-kitnet-na-varzea-1361389135", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9608788, -8.0478937]}}, {"type": "Feature", "properties": {"id": 188, "title": "Loft aconchegante no Derby - diária", "price": "R$ 150", "address": "Rua Arlindo Gouveia, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/loft-aconchegante-no-derby-diaria-1361365900", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.90100700000001, -8.0570025]}}, {"type": "Feature", "properties": {"id": 189, "title": "Kit net com mobília e taxas próx furor", "price": "R$ 600", "address": "Rua Engenheiro Florisval Silvestre Neto, Caxangá, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-com-mobilia-e-taxas-prox-furor-1361298266", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.94769250000001, -8.0232572]}}, {"type": "Feature", "properties": {"id": 190, "title": "QUARTO  PARA MULHERES EM RECIFE/PERNAMBUCO ", "price": "R$ 650", "address": "Avenida Caxangá, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-mulheres-em-recife-pernambuco-1361271213", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9213966, -8.0501561]}}, {"type": "Feature", "properties": {"id": 191, "title": "República  p/estudantes ou pessoas que trabalham em Recife", "price": "R$ 400", "address": "Rua Alexandria, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/republica-p-estudantes-ou-pessoas-que-trabalham-em-recife-1361245125", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9401816, -8.0629303]}}, {"type": "Feature", "properties": {"id": 192, "title": "Quarto para moças na Várzea ", "price": "R$ 850", "address": "Rua Maria Jaboatão, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-mocas-na-varzea-1361081723", "property_type": "Aluguel de quartos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9493257, -8.0433902]}}, {"type": "Feature", "properties": {"id": 193, "title": "Quarto em apartamento na Madalena (para garotas)", "price": "R$ 917", "address": "Rua Ricardo Salazar, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-em-apartamento-na-madalena-para-garotas-1360997911", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9108693, -8.0578688]}}, {"type": "Feature", "properties": {"id": 194, "title": "ALUGA-SE CASA PROXIMO AO HOSPITAL DA MULHER ", "price": "R$ 500", "address": "Rua Doutor Flávio Ferreira da Silva Marojo, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-proximo-ao-hospital-da-mulher-1360901016", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9385081, -8.0691386]}}, {"type": "Feature", "properties": {"id": 195, "title": "Aluga-se na várzea recife um kitnet só para homem ou aluno sozinho.", "price": "R$ 400", "address": "Rua Riachão, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-na-varzea-recife-um-kitnet-so-para-homem-ou-aluno-sozinho-1360868090", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9558125, -8.040525]}}, {"type": "Feature", "properties": {"id": 196, "title": "Kitnet próximo à UFPE", "price": "R$ 700", "address": "Recife, Cidade Universitária", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-proximo-a-ufpe-1360835752", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.919399000000006, -8.055802]}}, {"type": "Feature", "properties": {"id": 197, "title": "Kitnet mobiliada com tudo incluso", "price": "R$ 729", "address": "Rua Cristianópolis, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-mobiliada-com-tudo-incluso-1360636410", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9347873, -8.0500097]}}, {"type": "Feature", "properties": {"id": 198, "title": "Alugo casa 1 Andar sem garagem no Engenho do Meio R$ 700,00", "price": "R$ 700", "address": "Rua Silvino Lira, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-1-andar-sem-garagem-no-engenho-do-meio-r-700-00-1360608108", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9428749, -8.0594102]}}, {"type": "Feature", "properties": {"id": 199, "title": "Quarto individual para moça ", "price": "R$ 400", "address": "Rua Demócrito de Souza Filho, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-individual-para-moca-1361976693", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9055912, -8.0539208]}}, {"type": "Feature", "properties": {"id": 200, "title": "Sala comercial  em ótima localização pra alugar", "price": "R$ 0", "address": "Rua Cláudio Brotherhood, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/sala-comercial-em-otima-localizacao-pra-alugar-1354886407", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:49", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9279433, -8.0468678]}}, {"type": "Feature", "properties": {"id": 201, "title": "APTO 1 QUARTO", "price": "R$ 700", "address": "Rua Luiz Maranhão, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-1-quarto-1352185634", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9427408, -8.0332891]}}, {"type": "Feature", "properties": {"id": 202, "title": "apartamento aluga se na várzea", "price": "R$ 1.000", "address": "Avenida Afonso Olindense, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-aluga-se-na-varzea-1348680223", "property_type": "Apartamentos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.956054, -8.0408932]}}, {"type": "Feature", "properties": {"id": 203, "title": "Quartos para estudantes ou pessoas ue trabalha em Recife .", "price": "R$ 400", "address": "Rua Alexandria, Engenho do Meio, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quartos-para-estudantes-ou-pessoas-ue-trabalha-em-recife-1347433153", "property_type": "Aluguel de quartos", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.939181600000005, -8.0629303]}}, {"type": "Feature", "properties": {"id": 204, "title": "Casa de beco para aluguel com 40 mts² com 2 quartos no Cordeiro - Recife .", "price": "R$ 700", "address": "Rua Felixlândia, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-de-beco-para-aluguel-com-40-mts-com-2-quartos-no-cordeiro-recife-1293934549", "property_type": "Casas", "modifiedAt": "13/12/2024 07:29:50", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.93430850000001, -8.0542571]}}, {"type": "Feature", "properties": {"id": 205, "title": "Kitnet aconchegante para alugar só paga luz com um quarto, cozinha,sala, banheiro e ária", "price": "R$ 500", "address": "Rua Ator Rodolfo Mayer, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-aconchegante-para-alugar-so-paga-luz-com-um-quarto-cozinha-sala-banheiro-e-aria-1363633518", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9374964, -8.0333428]}}, {"type": "Feature", "properties": {"id": 206, "title": "Casa para aluguel, 2 quartos, Iputinga - Recife/PE", "price": "R$ 875", "address": "Vila Assunção, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-para-aluguel-2-quartos-iputinga-recife-pe-1363609332", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9355396, -8.0425462]}}, {"type": "Feature", "properties": {"id": 207, "title": "Aluga-se casa em Torrões ", "price": "R$ 600", "address": "Rua Jornalista Wilson Carneiro da Cunha, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-em-torroes-1363586258", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9359602, -8.0568282]}}, {"type": "Feature", "properties": {"id": 208, "title": "Aluga-se casa na iputinga Detran", "price": "R$ 500", "address": "Rua Doutor Tubal Urquiza Valença, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-na-iputinga-detran-1363505264", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9417663, -8.0289091]}}, {"type": "Feature", "properties": {"id": 209, "title": "Quarto para aluguel (não é mobiliado)", "price": "R$ 750", "address": "Rua Rodrigues Ferreira, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-aluguel-nao-e-mobiliado-1363355799", "property_type": "Aluguel de quartos", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9543169, -8.0321729]}}, {"type": "Feature", "properties": {"id": 210, "title": "Apto Cordeiro ", "price": "R$ 800", "address": "Avenida Caxangá, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-cordeiro-1363116227", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9101635, -8.0563927]}}, {"type": "Feature", "properties": {"id": 211, "title": "Casa em Gravatá ", "price": "R$ 500", "address": "Rua Conde de Irajá, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-em-gravata-1363115261", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9056485, -8.0457755]}}, {"type": "Feature", "properties": {"id": 212, "title": "Kitnet cond. fechado ", "price": "R$ 900", "address": "Rua Capitão José Nogueira Costa, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-cond-fechado-1363114523", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9580754, -8.0429768]}}, {"type": "Feature", "properties": {"id": 213, "title": "Quarto disponível para MENINAS ", "price": "R$ 600", "address": "Rua Real da Torre, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-disponivel-para-meninas-1363078474", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:34", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.90620740000001, -8.0508853]}}, {"type": "Feature", "properties": {"id": 214, "title": "Alugo Apt Iputinga ", "price": "R$ 980", "address": "Rua Osvaldo Guimarães, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-apt-iputinga-1363058829", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9413132, -8.0438262]}}, {"type": "Feature", "properties": {"id": 215, "title": "Quarto para alugar Jockey Club", "price": "R$ 850", "address": "Rua Félix Cavalcante Albuquerque, Prado, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-alugar-jockey-club-1362776974", "property_type": "Aluguel de quartos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.910201900000004, -8.0573814]}}, {"type": "Feature", "properties": {"id": 216, "title": "Apartamento residencial para alugar com 2 quartos no 1? andar rua tranquila ", "price": "R$ 920", "address": "Rua Pessoa Guerra, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-residencial-para-alugar-com-2-quartos-no-1-andar-rua-tranquila-1362750797", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9241989, -8.0466703]}}, {"type": "Feature", "properties": {"id": 217, "title": " Apto na Varzea, 02qts,sala, coz americana, Condomínio Jardins da Várzea.", "price": "R$ 1.000", "address": "Rua Francisco Leopoldino, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-na-varzea-02qts-sala-coz-americana-condominio-jardins-da-varzea-1362694900", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9631765, -8.0267081]}}, {"type": "Feature", "properties": {"id": 218, "title": "Casa Itamaracá Temporada com Piscina", "price": "R$ 250", "address": "Rua Real da Torre, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-itamaraca-temporada-com-piscina-1285898135", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.90520740000001, -8.0508853]}}, {"type": "Feature", "properties": {"id": 219, "title": "Kitnet aconchegante para alugar", "price": "R$ 900", "address": "Rua Alexandre de Gusmão, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-aconchegante-para-alugar-1362522747", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.928268, -8.0561951]}}, {"type": "Feature", "properties": {"id": 220, "title": "Apartamento para alugar em nova morada!", "price": "R$ 850", "address": "Rua Vereador Rúbens Gamboa, Caxangá, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-para-alugar-em-nova-morada-1362466216", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9504999, -8.0243138]}}, {"type": "Feature", "properties": {"id": 221, "title": "Aluga se kitnet mobiliado .", "price": "R$ 600", "address": "Rua Brasiléia, Torrões, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kitnet-mobiliado-1362405129", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9343824, -8.0563612]}}, {"type": "Feature", "properties": {"id": 222, "title": "Quarto compartilhado Para homens -madalena", "price": "R$ 650", "address": "Rua Benfica, Madalena, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-compartilhado-para-homens-madalena-1362302524", "property_type": "Aluguel de quartos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.906668700000004, -8.0576866]}}, {"type": "Feature", "properties": {"id": 223, "title": "Apto 01 quarto no Cordeiro", "price": "R$ 450", "address": "Rua Joaquim Alheiros, Cordeiro, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-01-quarto-no-cordeiro-1361418557", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9180064, -8.0459986]}}, {"type": "Feature", "properties": {"id": 224, "title": "Alugo casa com 2 quartos na várzea ao lado da escola de música João Pernambuco ", "price": "R$ 600", "address": "Rua Barão de Muribeca, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-com-2-quartos-na-varzea-ao-lado-da-escola-de-musica-joao-pernambuco-1361146623", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:35", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9637465, -8.050795]}}, {"type": "Feature", "properties": {"id": 225, "title": "apartamento aluga se na várzea", "price": "R$ 850", "address": "Avenida Barão de Bonito, Várzea, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-aluga-se-na-varzea-1359973623", "property_type": "Casas", "modifiedAt": "18/12/2024 12:23:36", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9514743, -8.0389237]}}, {"type": "Feature", "properties": {"id": 226, "title": "Aluga-se kit net em Recife", "price": "R$ 300", "address": "Rua Quatro de Outubro, Prado, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kit-net-em-recife-1352784264", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:36", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9145736, -8.0558157]}}, {"type": "Feature", "properties": {"id": 227, "title": "Kitnet próximo ao extra da caxangá  com energia e água incluso ", "price": "R$ 750", "address": "Rua Cordislândia, Iputinga, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-proximo-ao-extra-da-caxanga-com-energia-e-agua-incluso-1350735243", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:36", "active": true}, "geometry": {"type": "Point", "coordinates": [-34.9307041, -8.0420402]}}, {"type": "Feature", "properties": {"id": 228, "title": "TEMPORADA, excelente apartamento no melhor local do bairro da Torre.", "price": "R$ 170", "address": "Rua Davino Pontual, Torre, Recife", "url": "https://pe.olx.com.br/grande-recife/imoveis/temporada-excelente-apartamento-no-melhor-local-do-bairro-da-torre-1139565286", "property_type": "Apartamentos", "modifiedAt": "18/12/2024 12:23:37", "active": true}, "geometry": {"type": "Point", "coordinates": [-49.50236260000001, -28.2925954]}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "title": "PENSIONATO CIDADE UNIVERSITÁRIA - UFPE",
+        "price": "R$ 680",
+        "address": "Rua Deputado Cunha Rabelo, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/pensionato-cidade-universitaria-ufpe-1316924785",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9478451, -8.0455847] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "title": "Kitnet pra alugar na torre ",
+        "price": "R$ 550",
+        "address": "Rua Diogo Álvares, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-pra-alugar-na-torre-1356285559",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:09",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-46.8711441, -23.5763363] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "title": "alugo casa no bairro roda de fogo valor 500,00 reais ja com a agua incluso",
+        "price": "R$ 500",
+        "address": "Rua Luiz da Câmara Cascudo, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-no-bairro-roda-de-fogo-valor-500-00-reais-ja-com-a-agua-incluso-1356103505",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:09",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.939751, -8.056377] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "title": "Casa próximo a ufpe 600mts ",
+        "price": "R$ 950",
+        "address": "Rua Canaã, Cidade Universitária, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-proximo-a-ufpe-600mts-1129224132",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:09",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9228903, -8.0148472] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "title": "Salas Aluguel Cidade Universitária Várzea",
+        "price": "R$ 800",
+        "address": "Rua Visconde de Barbacena, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/salas-aluguel-cidade-universitaria-varzea-1355492941",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9443072, -8.041829] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "title": "Quartos individuais para alunas de mestrado e doutorado próximo a UFPE",
+        "price": "R$ 600",
+        "address": "Rua Tomé do Rego Cavalcanti, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quartos-individuais-para-alunas-de-mestrado-e-doutorado-proximo-a-ufpe-1355301860",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9541351, -8.0488251] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "title": "Loft Derby",
+        "price": "R$ 150",
+        "address": "Rua Arlindo Gouveia, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/loft-derby-1355197921",
+        "property_type": "Apartamentos",
+        "modifiedAt": "21/11/2024 07:49:09",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.903007, -8.0570025] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 19,
+        "title": "kitnet próximo a UFPE na Várzea - Recife - PE",
+        "price": "R$ 650",
+        "address": "Rua Estevão de Sá, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-proximo-a-ufpe-na-varzea-recife-pe-1354617408",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9498148, -8.043282] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 22,
+        "title": "Aluguel Flat/Kitnet na Várzea!",
+        "price": "R$ 450",
+        "address": "Rua Gastão Vidigal, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-flat-kitnet-na-varzea-1354276311",
+        "property_type": "Apartamentos",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9570306, -8.0300925] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 23,
+        "title": "Quarto para alugar no Cordeiro ",
+        "price": "R$ 650",
+        "address": "Rua Elizeu Cavalcanti, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-alugar-no-cordeiro-1354151150",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.920872, -8.048964] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 25,
+        "title": "Aluga-se quarto  para estudantes e sala comercial próximo a UFPE",
+        "price": "R$ 750",
+        "address": "Rua General Polidoro, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-quarto-para-estudantes-e-sala-comercial-proximo-a-ufpe-1250165482",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9456277, -8.0373588] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 26,
+        "title": "Kitnet mobiliado em jardim Petrópolis na várzea ",
+        "price": "R$ 1.000",
+        "address": "Rua Jaguaribara, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-mobiliado-em-jardim-petropolis-na-varzea-1353898516",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9666566, -8.0381959] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 27,
+        "title": "Kitnet Individual para Estudante UFPE",
+        "price": "R$ 750",
+        "address": "Rua Governador Lopo Garro, Cidade Universitária, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-individual-para-estudante-ufpe-1353676606",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9431024, -8.0532678] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 28,
+        "title": "Casa na Várzea ",
+        "price": "R$ 800",
+        "address": "Avenida Afonso Olindense, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-na-varzea-1353526853",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.957054, -8.0408932] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 29,
+        "title": "Vendo ou alugo",
+        "price": "R$ 380",
+        "address": "Rua Vale do Piauí, Passarinho, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/vendo-ou-alugo-1353487635",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.920399, -8.055802] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 30,
+        "title": "Casa com Sala Ampla",
+        "price": "R$ 750",
+        "address": "Rua José de Holanda, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-com-sala-ampla-1344808939",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-49.5063626, -28.2925954] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "title": "KITINETE * EM FRENTE  ao CFCH * UFPE  **** APT com 2 quartos próximo do HC UFPE",
+        "price": "R$ 850",
+        "address": "Avenida Professor Artur de Sá, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitinete-em-frente-ao-cfch-ufpe--apt-com-2-quartos-proximo-do-hc-ufpe-1150440635",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.954965800000004, -8.0463426]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "title": "Alugo Kitnet e outros imóveis próximos da UFPE",
+        "price": "R$ 800",
+        "address": "Avenida Professor Artur de Sá, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-kitnet-e-outros-imoveis-proximos-da-ufpe-1353319772",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.953965800000006, -8.0463426]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "title": "aluga apartamento ",
+        "price": "R$ 900",
+        "address": "Rua Doutor Correia da Silva, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-apartamento-1355042983",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9582279, -8.0480502] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "title": "Alugo loft , apartamento, casa",
+        "price": "R$ 850",
+        "address": "Rua Xavier Sobrinho, Prado, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-loft-apartamento-casa-1321254473",
+        "property_type": "Apartamentos",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.919887200000005, -8.0589575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 46,
+        "title": "Casa no Cordeiro ",
+        "price": "R$ 500",
+        "address": "Rua Antônio Machado, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-no-cordeiro-1352223547",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9226611, -8.0552739] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 48,
+        "title": "Loft 2 aluguel por diária no Derby.",
+        "price": "R$ 150",
+        "address": "Rua Arlindo Gouveia, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/loft-2-aluguel-por-diaria-no-derby-1352036931",
+        "property_type": "Apartamentos",
+        "modifiedAt": "21/11/2024 07:49:10",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.902007000000005, -8.0570025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 50,
+        "title": "Aluguel de quarto na Torre- Recife (somente para meninas)",
+        "price": "R$ 666",
+        "address": "Rua Visconde de Itaparica, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-de-quarto-na-torre-recife-somente-para-meninas-1351699611",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.505362600000005, -28.2925954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 51,
+        "title": "Aluguel kinet na várzea ",
+        "price": "R$ 470",
+        "address": "Rua Emiliano Braga, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-kinet-na-varzea-1351675886",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.945364, -8.0384222] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 53,
+        "title": "Aluga-se um Kitnet próx a UFPE",
+        "price": "R$ 780",
+        "address": "Rua das Palmeiras, Cidade Universitária, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-um-kitnet-prox-a-ufpe-1350624460",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9312478, -8.0059656] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 54,
+        "title": "Republica para estudantes próximo a UFPE",
+        "price": "R$ 500",
+        "address": "Rua Pantaleão Cirne, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/republica-para-estudantes-proximo-a-ufpe-1350429778",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9455465, -8.054157] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 55,
+        "title": "Quarto privativo em casa compartilhada. Perto da FASUP",
+        "price": "R$ 600",
+        "address": "Recife, Engenho do Meio",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-privativo-em-casa-compartilhada-perto-da-fasup-1349965285",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-53.184089, -25.423559] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 56,
+        "title": "Aluguel quarto na várzea ",
+        "price": "R$ 400",
+        "address": "Rua Padre Champagnat, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-quarto-na-varzea-1349918930",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9477807, -8.0423004] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 57,
+        "title": "ALUGO QUARTO EM AP MOBILIADO",
+        "price": "R$ 900",
+        "address": "Rua Cardeal Dom Augusto, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-quarto-em-ap-mobiliado-1349867065",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.928864, -8.0546303] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 58,
+        "title": "Alugo casa na Iputiga",
+        "price": "R$ 700",
+        "address": "Rua Capitão Aurélio de Araújo, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-na-iputiga-1349805656",
+        "property_type": "Casas",
+        "modifiedAt": "28/11/2024 08:17:33",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9323946, -8.0398859] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 60,
+        "title": "Kitnet Para Alugar",
+        "price": "R$ 850",
+        "address": "Rua Souza Bandeira, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-para-alugar-1349724790",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.50436260000001, -28.2925954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 61,
+        "title": "CASA PRA ALUGAR NA VÁRZEA/CDU",
+        "price": "R$ 700",
+        "address": "Rua Mário Campelo, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-pra-alugar-na-varzea-cdu-1349721740",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9597413, -8.050849] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 62,
+        "title": "1 quarto em prédio novinho, próximo ao Jockey!",
+        "price": "R$ 850",
+        "address": "Rua Félix Cavalcante Albuquerque, Prado, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/1-quarto-em-predio-novinho-proximo-ao-jockey-1349668444",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9122019, -8.0573814] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 63,
+        "title": "Quarto mobiliado ",
+        "price": "R$ 550",
+        "address": "Rua Gastão Vidigal, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-mobiliado-1349391953",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.956030600000005, -8.0300925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 66,
+        "title": "Casa para alugar, recém reformada",
+        "price": "R$ 600",
+        "address": "Rua Engenheiro Florisval Silvestre Neto, Caxangá, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-para-alugar-recem-reformada-1350713749",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.949692500000005, -8.0232572]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 67,
+        "title": "Alugo Kitnet  próx. A Reitoria da UFPE(ENGENHO DO MEIO).",
+        "price": "R$ 700",
+        "address": "Rua Jacaraú, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-kitnet-prox-a-reitoria-da-ufpe-engenho-do-meio-1339752285",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9459553, -8.0563566] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 68,
+        "title": "Quartos para estudantes ou pessoas que trabalha em Recife .",
+        "price": "R$ 400",
+        "address": "Rua Alexandria, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quartos-para-estudantes-ou-pessoas-que-trabalha-em-recife-1347433153",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "21/11/2024 07:49:11",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9411816, -8.0629303] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 69,
+        "title": "APARTAMENTO NO CORDEIRO, BONGI",
+        "price": "R$ 790",
+        "address": "Rua Xavier Sobrinho, Prado, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-no-cordeiro-bongi-1349005680",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.91888720000001, -8.0589575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 89,
+        "title": "Casa Ponta de Serrambi 5 Quartos",
+        "price": "R$ 800",
+        "address": "Rua Pessoa de Melo, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-ponta-de-serrambi-5-quartos-1322649810",
+        "property_type": "Casas",
+        "modifiedAt": "19/12/2024 11:59:59",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9074902, -8.05129595] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 110,
+        "title": "Casa de vila para aluguel com 40 mts² com 2 quartos no Cordeiro - Recife .",
+        "price": "R$ 650",
+        "address": "Rua Felixlândia, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-de-vila-para-aluguel-com-40-mts-com-2-quartos-no-cordeiro-recife-1293934549",
+        "property_type": "Casas",
+        "modifiedAt": "21/11/2024 07:49:12",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.935308500000005, -8.0542571]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 112,
+        "title": "Apartamento para aluguel, 1 quarto, 1 vaga, Cordeiro - Recife/PE",
+        "price": "R$ 880",
+        "address": "Rua Francisco Vita, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-para-aluguel-1-quarto-1-vaga-cordeiro-recife-pe-1282369079",
+        "property_type": "Apartamentos",
+        "modifiedAt": "21/11/2024 07:49:12",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9260977, -8.0521195] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 117,
+        "title": "500",
+        "price": "R$ 500",
+        "address": "Rua Luiz da Câmara Cascudo, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/500-1356103505",
+        "property_type": "Casas",
+        "modifiedAt": "28/11/2024 08:17:33",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.941059, -8.061939] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 118,
+        "title": "RESIDÊNCIA ESTUDANTIL - 300 metros da UFPE",
+        "price": "R$ 480",
+        "address": "Rua Francisco Correia de Araújo, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/residencia-estudantil-300-metros-da-ufpe-1269278156",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:48",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.945157300000005, -8.0422408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 120,
+        "title": "Kitinet para Alugar - Várzea - Recife",
+        "price": "R$ 600",
+        "address": "Rua Gastão Vidigal, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitinet-para-alugar-varzea-recife-1358039606",
+        "property_type": "Casas",
+        "modifiedAt": "28/11/2024 08:17:32",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.95503060000001, -8.0300925]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 125,
+        "title": "Aluga-se kitnet",
+        "price": "R$ 500",
+        "address": "Rua Tomé do Rego Cavalcanti, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kitnet-1357281750",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.953135100000004, -8.0488251]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 126,
+        "title": "Beira Mar em Itamaracá 2qts Com Ar, Varanda, Redarios",
+        "price": "R$ 350",
+        "address": "Rua José Osório, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/beira-mar-em-itamaraca-2qts-com-ar-varanda-redarios-1357221607",
+        "property_type": "Apartamentos",
+        "modifiedAt": "28/11/2024 08:17:32",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.912055, -8.0539454] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 127,
+        "title": "Kit net",
+        "price": "R$ 600",
+        "address": "Rua Frei Jaboatão, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-1357099226",
+        "property_type": "Casas",
+        "modifiedAt": "28/11/2024 08:17:32",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-46.8710098, -23.1578371] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 128,
+        "title": "Quitinete mobiliado, pra solteiros, transversal \"caxangá\"",
+        "price": "R$ 700",
+        "address": "Estrada do Forte do Arraial Novo do Bom Jesus, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quitinete-mobiliado-pra-solteiros-transversal-caxanga-1357042006",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "28/11/2024 08:17:32",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.930835, -8.056174] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 132,
+        "title": "Aluga-se kit Net na cidade universitária Bairro da várzea ",
+        "price": "R$ 500",
+        "address": "Avenida Professor Artur de Sá, Cidade Universitária, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kit-net-na-cidade-universitaria-bairro-da-varzea-1356596366",
+        "property_type": "Casas",
+        "modifiedAt": "28/11/2024 08:17:32",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9520035, -8.046395] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 134,
+        "title": "Aluguel de kitnet ",
+        "price": "R$ 400",
+        "address": "Rua Piranhas, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-de-kitnet-1357764979",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9126573, -8.0441214] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 136,
+        "title": "Excelente apartamento no melhor local do bairro da Torre.",
+        "price": "R$ 170",
+        "address": "Rua Davino Pontual, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/excelente-apartamento-no-melhor-local-do-bairro-da-torre-1139565286",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.50336260000001, -28.2925954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 137,
+        "title": "UFPE - Kitnet, Apartamento, Quarto - UFRPE",
+        "price": "R$ 0",
+        "address": "Rua Antônio da Silva, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/ufpe-kitnet-apartamento-quarto-ufrpe-1360035880",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:48",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9450369, -8.0543245] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 139,
+        "title": "Alugo quarto para meninas.",
+        "price": "R$ 600",
+        "address": "Rua Real da Torre, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-quarto-para-meninas-1360024807",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "05/12/2024 08:38:29",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.907207400000004, -8.0508853]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 144,
+        "title": "Alugo casa ",
+        "price": "R$ 750",
+        "address": "Rua Diogo Barbosa Machado, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-1359819573",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:36",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9599639, -8.0427242] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 147,
+        "title": "KITNET  IPUTINGA RS430",
+        "price": "R$ 450",
+        "address": "Rua Umari, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-iputinga-rs430-1359651976",
+        "property_type": "Apartamentos",
+        "modifiedAt": "05/12/2024 08:38:30",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9419187, -8.030887] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 150,
+        "title": "Casa de um quarto em condomínio fechado ",
+        "price": "R$ 700",
+        "address": "Rua Professor Severino Jordão Emerenciano, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-de-um-quarto-em-condominio-fechado-1359289935",
+        "property_type": "Casas",
+        "modifiedAt": "05/12/2024 08:38:30",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9362807, -8.0342797] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 152,
+        "title": "Quarto individual Masculino ",
+        "price": "R$ 450",
+        "address": "Rua Elpídio Branco, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-individual-masculino-1359182870",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9501129, -8.0403065] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 155,
+        "title": "kitnet na cidade universitária",
+        "price": "R$ 800",
+        "address": "Rua Abatia, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-na-cidade-universitaria-1359095875",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:36",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.948481, -8.0421525] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 156,
+        "title": "Apartamento para aluguel, 1 quarto, 1 vaga, Iputinga - Recife/PE",
+        "price": "R$ 800",
+        "address": "Rua Pereira Coutinho Filho, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-para-aluguel-1-quarto-1-vaga-iputinga-recife-pe-1358972163",
+        "property_type": "Apartamentos",
+        "modifiedAt": "05/12/2024 08:38:30",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9321246, -8.0373592] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 157,
+        "title": "Alugo dois quartos individuais para mulheres em apartamento",
+        "price": "R$ 550",
+        "address": "Estrada do Barbalho, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-dois-quartos-individuais-para-mulheres-em-apartamento-1358813412",
+        "property_type": "Apartamentos",
+        "modifiedAt": "05/12/2024 08:38:30",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9407693, -8.0379536] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 158,
+        "title": "Quarto em apartamento para MULHER ",
+        "price": "R$ 800",
+        "address": "Rua Antônio Valdevino Costa, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-em-apartamento-para-mulher-1358652089",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "05/12/2024 08:38:30",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9327634, -8.056275] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 159,
+        "title": "Quarto c/ Banheiro Privativo UFPE - Mestrandos Doutorandos Pós Graduação",
+        "price": "R$ 750",
+        "address": "Rua Francisco Correia de Araújo, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-c-banheiro-privativo-ufpe-mestrandos-doutorandos-pos-graduacao-1325904592",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.94415730000001, -8.0422408]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 160,
+        "title": "Quarto para Alugar",
+        "price": "R$ 500",
+        "address": "Rua Antônio Borges Uchôa, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-alugar-1358448374",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "05/12/2024 08:38:30",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9423921, -8.0564889] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 161,
+        "title": "Aluga-se casa Maracaipe ",
+        "price": "R$ 0",
+        "address": "Rua Zilda S. de Santana, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-maracaipe-1358290301",
+        "property_type": "Casas",
+        "modifiedAt": "05/12/2024 08:38:31",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9146393, -8.0459123] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 163,
+        "title": "Aluguel de quarto - Bairro da Madalena ",
+        "price": "R$ 650",
+        "address": "Rua Benfica, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-de-quarto-bairro-da-madalena-1360149910",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "05/12/2024 08:38:31",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9076687, -8.0576866] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 164,
+        "title": "casa",
+        "price": "R$ 650",
+        "address": "Recife, Torrões",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-1359433964",
+        "property_type": "Casas",
+        "modifiedAt": "05/12/2024 08:38:31",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.8838193, -8.0584933] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 165,
+        "title": "Casa pra alugar ",
+        "price": "R$ 500",
+        "address": "Recife, Zumbi",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-pra-alugar-1358898572",
+        "property_type": "Casas",
+        "modifiedAt": "05/12/2024 08:38:31",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.8828193, -8.0584933] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 166,
+        "title": "Kit net prox a UFRPE,UFPE c taxas e mobilia",
+        "price": "R$ 600",
+        "address": "Rua Engenheiro Florisval Silvestre Neto, Caxangá, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-prox-a-ufrpe-ufpe-c-taxas-e-mobilia-1354674543",
+        "property_type": "Apartamentos",
+        "modifiedAt": "19/12/2024 12:00:00",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.94869250000001, -8.0232572]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 167,
+        "title": "Alg Kitnet para Estudantes Taxas Inclusas em Frente a UFPE",
+        "price": "R$ 800",
+        "address": "Rua Acadêmico Hélio Ramos, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alg-kitnet-para-estudantes-taxas-inclusas-em-frente-a-ufpe-1349339009",
+        "property_type": "Casas",
+        "modifiedAt": "05/12/2024 08:38:32",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-56.131502, -15.647497] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 170,
+        "title": "Aluguel Quarto -  1 quarto para 2 pessoas (Beliche inclusa) 1 quarto para 1 pessoa",
+        "price": "R$ 650",
+        "address": "Rua Félix Cavalcante Albuquerque, Prado, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluguel-quarto-1-quarto-para-2-pessoas-beliche-inclusa-1-quarto-para-1-pessoa-1360204611",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "05/12/2024 12:31:29",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9112019, -8.0573814] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 174,
+        "title": "ALUGA-SE APARTAMENTO EM CIDADE UNIVERSITÁRIA ",
+        "price": "R$ 750",
+        "address": "Rua Canaã, Cidade Universitária, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-apartamento-em-cidade-universitaria-1360438833",
+        "property_type": "Apartamentos",
+        "modifiedAt": "06/12/2024 09:25:42",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9218903, -8.0148472] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 177,
+        "title": "Salas comerciais ",
+        "price": "R$ 400",
+        "address": "Rua Major Marcelo Menezes, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/salas-comerciais-1362199407",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:48",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.939529300000004, -8.0327791]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 178,
+        "title": "Aluga casa na Iputinga com 2 quartos ",
+        "price": "R$ 730",
+        "address": "Rua Coronel Lima Botelho, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-casa-na-iputinga-com-2-quartos-1362183629",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:48",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9311019, -8.034024] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 179,
+        "title": "Kitnet na Iputinga",
+        "price": "R$ 500",
+        "address": "Rua Engenheiro Moacyr Parahyba, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-na-iputinga-1362171016",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:48",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.939145, -8.03584] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 181,
+        "title": "KITNET R$ 700, CDU VARZEA , COM SALA COZINHA, BANHEIRO PROXIMO A AVENIDA",
+        "price": "R$ 700",
+        "address": "Rua Poloni, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-r-700-cdu-varzea-com-sala-cozinha-banheiro-proximo-a-avenida-1361930355",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:48",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9516091, -8.0437722] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 182,
+        "title": "CASA EM ITAMARACÁ - LER O ANUNCIO",
+        "price": "R$ 400",
+        "address": "Rua Doutor José Anastácio da Silva Guimarães, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-em-itamaraca-ler-o-anuncio-1361768338",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.928574, -8.0383548] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 183,
+        "title": "Casa para alugar ",
+        "price": "R$ 700",
+        "address": "Rua Severino Pessoa, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-para-alugar-1361725353",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9121891, -8.0513806] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 184,
+        "title": "Kit Net na Varzea UFPE Agua, Luz e Internet Gratis ",
+        "price": "R$ 590",
+        "address": "Rua das Palmeiras, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-na-varzea-ufpe-agua-luz-e-internet-gratis-1361597719",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9789165, -8.0389937] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 186,
+        "title": "Casa 03 quartos no Cordeiro",
+        "price": "R$ 600",
+        "address": "Rua Joaquim Alheiros, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-03-quartos-no-cordeiro-1361418557",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9190064, -8.0459986] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 187,
+        "title": "Alugo kitnet na várzea ",
+        "price": "R$ 600",
+        "address": "Rua Dona Maria Lacerda, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-kitnet-na-varzea-1361389135",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9608788, -8.0478937] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 188,
+        "title": "Loft aconchegante no Derby - diária",
+        "price": "R$ 150",
+        "address": "Rua Arlindo Gouveia, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/loft-aconchegante-no-derby-diaria-1361365900",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.90100700000001, -8.0570025]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 189,
+        "title": "Kit net com mobília e taxas próx furor",
+        "price": "R$ 600",
+        "address": "Rua Engenheiro Florisval Silvestre Neto, Caxangá, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kit-net-com-mobilia-e-taxas-prox-furor-1361298266",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.94769250000001, -8.0232572]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 190,
+        "title": "QUARTO  PARA MULHERES EM RECIFE/PERNAMBUCO ",
+        "price": "R$ 650",
+        "address": "Avenida Caxangá, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-mulheres-em-recife-pernambuco-1361271213",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9213966, -8.0501561] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 191,
+        "title": "República  p/estudantes ou pessoas que trabalham em Recife",
+        "price": "R$ 400",
+        "address": "Rua Alexandria, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/republica-p-estudantes-ou-pessoas-que-trabalham-em-recife-1361245125",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9401816, -8.0629303] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 192,
+        "title": "Quarto para moças na Várzea ",
+        "price": "R$ 850",
+        "address": "Rua Maria Jaboatão, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-mocas-na-varzea-1361081723",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9493257, -8.0433902] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 193,
+        "title": "Quarto em apartamento na Madalena (para garotas)",
+        "price": "R$ 917",
+        "address": "Rua Ricardo Salazar, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-em-apartamento-na-madalena-para-garotas-1360997911",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9108693, -8.0578688] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 194,
+        "title": "ALUGA-SE CASA PROXIMO AO HOSPITAL DA MULHER",
+        "price": "R$ 500",
+        "address": "Rua Doutor Flávio Ferreira da Silva Marojo, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-proximo-ao-hospital-da-mulher-1360901016",
+        "property_type": "Casas",
+        "modifiedAt": "19/12/2024 12:21:54",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9385081, -8.0691386] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 195,
+        "title": "Aluga-se na várzea recife um kitnet só para homem ou aluno sozinho.",
+        "price": "R$ 400",
+        "address": "Rua Riachão, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-na-varzea-recife-um-kitnet-so-para-homem-ou-aluno-sozinho-1360868090",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9558125, -8.040525] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 196,
+        "title": "Kitnet próximo à UFPE",
+        "price": "R$ 700",
+        "address": "Recife, Cidade Universitária",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-proximo-a-ufpe-1360835752",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.919399000000006, -8.055802]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 197,
+        "title": "Kitnet mobiliada com tudo incluso ",
+        "price": "R$ 729",
+        "address": "Rua Cristianópolis, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-mobiliada-com-tudo-incluso-1360636410",
+        "property_type": "Casas",
+        "modifiedAt": "19/12/2024 12:21:54",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9347873, -8.0500097] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 199,
+        "title": "Quarto individual para moça ",
+        "price": "R$ 400",
+        "address": "Rua Demócrito de Souza Filho, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-individual-para-moca-1361976693",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9055912, -8.0539208] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 200,
+        "title": "Sala comercial  em ótima localização pra alugar",
+        "price": "R$ 0",
+        "address": "Rua Cláudio Brotherhood, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/sala-comercial-em-otima-localizacao-pra-alugar-1354886407",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:49",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9279433, -8.0468678] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 202,
+        "title": "apartamento aluga se na várzea",
+        "price": "R$ 1.000",
+        "address": "Avenida Afonso Olindense, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-aluga-se-na-varzea-1348680223",
+        "property_type": "Apartamentos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.956054, -8.0408932] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 203,
+        "title": "Quartos para estudantes ou pessoas ue trabalha em Recife .",
+        "price": "R$ 400",
+        "address": "Rua Alexandria, Engenho do Meio, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quartos-para-estudantes-ou-pessoas-ue-trabalha-em-recife-1347433153",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.939181600000005, -8.0629303]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 204,
+        "title": "Casa de beco para aluguel com 40 mts² com 2 quartos no Cordeiro - Recife .",
+        "price": "R$ 700",
+        "address": "Rua Felixlândia, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-de-beco-para-aluguel-com-40-mts-com-2-quartos-no-cordeiro-recife-1293934549",
+        "property_type": "Casas",
+        "modifiedAt": "13/12/2024 07:29:50",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.93430850000001, -8.0542571]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 205,
+        "title": "Kitnet aconchegante para alugar só paga luz com um quarto, cozinha,sala, banheiro e ária",
+        "price": "R$ 500",
+        "address": "Rua Ator Rodolfo Mayer, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-aconchegante-para-alugar-so-paga-luz-com-um-quarto-cozinha-sala-banheiro-e-aria-1363633518",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9374964, -8.0333428] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 206,
+        "title": "Casa para aluguel, 2 quartos, Iputinga - Recife/PE",
+        "price": "R$ 875",
+        "address": "Vila Assunção, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-para-aluguel-2-quartos-iputinga-recife-pe-1363609332",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9355396, -8.0425462] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 208,
+        "title": "Aluga-se casa na iputinga Detran",
+        "price": "R$ 500",
+        "address": "Rua Doutor Tubal Urquiza Valença, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-casa-na-iputinga-detran-1363505264",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9417663, -8.0289091] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 209,
+        "title": "Quarto para aluguel (não é mobiliado)",
+        "price": "R$ 750",
+        "address": "Rua Rodrigues Ferreira, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-aluguel-nao-e-mobiliado-1363355799",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9543169, -8.0321729] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 210,
+        "title": "Apto Cordeiro ",
+        "price": "R$ 800",
+        "address": "Rua Repartimento, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-cordeiro-1363116227",
+        "property_type": "Apartamentos",
+        "modifiedAt": "19/12/2024 08:21:24",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9265604, -8.042226] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 211,
+        "title": "Casa em Gravatá ",
+        "price": "R$ 500",
+        "address": "Rua Conde de Irajá, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-em-gravata-1363115261",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9056485, -8.0457755] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 212,
+        "title": "Kitnet cond. fechado ",
+        "price": "R$ 900",
+        "address": "Rua Capitão José Nogueira Costa, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-cond-fechado-1363114523",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9580754, -8.0429768] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 213,
+        "title": "Quarto disponível para MENINAS ",
+        "price": "R$ 600",
+        "address": "Rua Real da Torre, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-disponivel-para-meninas-1363078474",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:34",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.90620740000001, -8.0508853]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 214,
+        "title": "Alugo Apt Iputinga ",
+        "price": "R$ 980",
+        "address": "Rua Osvaldo Guimarães, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-apt-iputinga-1363058829",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9413132, -8.0438262] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 215,
+        "title": "Quarto para alugar Jockey Club",
+        "price": "R$ 850",
+        "address": "Rua Félix Cavalcante Albuquerque, Prado, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-para-alugar-jockey-club-1362776974",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.910201900000004, -8.0573814]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 216,
+        "title": "Apartamento residencial para alugar com 2 quartos no 1? andar rua tranquila ",
+        "price": "R$ 920",
+        "address": "Rua Pessoa Guerra, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-residencial-para-alugar-com-2-quartos-no-1-andar-rua-tranquila-1362750797",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9241989, -8.0466703] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 217,
+        "title": " Apto na Varzea, 02qts,sala, coz americana, Condomínio Jardins da Várzea.",
+        "price": "R$ 1.000",
+        "address": "Rua Francisco Leopoldino, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-na-varzea-02qts-sala-coz-americana-condominio-jardins-da-varzea-1362694900",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9631765, -8.0267081] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 218,
+        "title": "Casa Itamaracá Temporada com Piscina",
+        "price": "R$ 250",
+        "address": "Rua Real da Torre, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-itamaraca-temporada-com-piscina-1285898135",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.90520740000001, -8.0508853]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 219,
+        "title": "Kitnet aconchegante para alugar",
+        "price": "R$ 900",
+        "address": "Rua Alexandre de Gusmão, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-aconchegante-para-alugar-1362522747",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.928268, -8.0561951] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 220,
+        "title": "Apartamento para alugar em nova morada!",
+        "price": "R$ 850",
+        "address": "Rua Vereador Rúbens Gamboa, Caxangá, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-para-alugar-em-nova-morada-1362466216",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9504999, -8.0243138] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 221,
+        "title": "Aluga se kitnet mobiliado .",
+        "price": "R$ 600",
+        "address": "Rua Brasiléia, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kitnet-mobiliado-1362405129",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9343824, -8.0563612] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 222,
+        "title": "Quarto compartilhado Para homens -madalena",
+        "price": "R$ 650",
+        "address": "Rua Benfica, Madalena, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/quarto-compartilhado-para-homens-madalena-1362302524",
+        "property_type": "Aluguel de quartos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.906668700000004, -8.0576866]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 223,
+        "title": "Apto 01 quarto no Cordeiro",
+        "price": "R$ 450",
+        "address": "Rua Joaquim Alheiros, Cordeiro, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apto-01-quarto-no-cordeiro-1361418557",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9180064, -8.0459986] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 224,
+        "title": "Alugo casa com 2 quartos na várzea ao lado da escola de música João Pernambuco ",
+        "price": "R$ 600",
+        "address": "Rua Barão de Muribeca, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/alugo-casa-com-2-quartos-na-varzea-ao-lado-da-escola-de-musica-joao-pernambuco-1361146623",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:35",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9637465, -8.050795] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 225,
+        "title": "apartamento aluga se na várzea",
+        "price": "R$ 850",
+        "address": "Avenida Barão de Bonito, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/apartamento-aluga-se-na-varzea-1359973623",
+        "property_type": "Casas",
+        "modifiedAt": "18/12/2024 12:23:36",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9514743, -8.0389237] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 226,
+        "title": "Aluga-se kit net em Recife",
+        "price": "R$ 300",
+        "address": "Rua Quatro de Outubro, Prado, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kit-net-em-recife-1352784264",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:36",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9145736, -8.0558157] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 227,
+        "title": "Kitnet próximo ao extra da caxangá  com energia e água incluso ",
+        "price": "R$ 750",
+        "address": "Rua Cordislândia, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/kitnet-proximo-ao-extra-da-caxanga-com-energia-e-agua-incluso-1350735243",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:36",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9307041, -8.0420402] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 228,
+        "title": "TEMPORADA, excelente apartamento no melhor local do bairro da Torre.",
+        "price": "R$ 170",
+        "address": "Rua Davino Pontual, Torre, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/temporada-excelente-apartamento-no-melhor-local-do-bairro-da-torre-1139565286",
+        "property_type": "Apartamentos",
+        "modifiedAt": "18/12/2024 12:23:37",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.50236260000001, -28.2925954]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 229,
+        "title": "Casa tipo kitnet",
+        "price": "R$ 400",
+        "address": "Rua Antônio Correia de Araújo, Torrões, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-tipo-kitnet-1363833305",
+        "property_type": "Casas",
+        "modifiedAt": "19/12/2024 08:21:24",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9346982, -8.0663097] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 230,
+        "title": "Aluga-se kitnet",
+        "price": "R$ 800",
+        "address": "Avenida Caxangá, Várzea, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/aluga-se-kitnet-1363829589",
+        "property_type": "Apartamentos",
+        "modifiedAt": "19/12/2024 08:21:24",
+        "active": true
+      },
+      "geometry": { "type": "Point", "coordinates": [-34.9497646, -8.0346831] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 231,
+        "title": "Casa com 2 quartos ",
+        "price": "R$ 1.000",
+        "address": "Rua Major Marcelo Menezes, Iputinga, Recife",
+        "url": "https://pe.olx.com.br/grande-recife/imoveis/casa-com-2-quartos-1363775137",
+        "property_type": "Casas",
+        "modifiedAt": "19/12/2024 08:21:24",
+        "active": true
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.938529300000006, -8.0327791]
+      }
+    }
+  ]
+}
