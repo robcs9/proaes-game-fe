@@ -3,18 +3,16 @@
 Frontend do projeto GAME
 
 # Notes
-- Corrigir responsividade para breakpoints de dispositivos móveis
-- Ideia interessante: substituir cores de elementos geográficos das Tiles ou criar Layer com elementos visuais baseados em mapas de jogos clássicos
+~~- Corrigir responsividade para breakpoints de dispositivos móveis~~
+- Ideia: substituir cores de elementos geográficos das Tiles ou criar Layer com elementos visuais baseados em mapas de jogos clássicos
 
+___
 
-# Fresh project
+# Fresh project usage
 
-Your new Fresh project is ready to go. You can follow the Fresh "Getting
-Started" guide here: https://fresh.deno.dev/docs/getting-started
-
-### Usage
-
-Make sure to install Deno: https://deno.land/manual/getting_started/installation
+ Fresh docs: https://fresh.deno.dev/docs/getting-started
+ 
+ Install Deno: https://deno.land/manual/getting_started/installation
 
 Then start the project:
 
