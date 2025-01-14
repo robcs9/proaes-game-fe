@@ -3,6 +3,8 @@
 Frontend do projeto GAME
 
 # Notes
+
+- Reimplementar distribuição de pontos sobrepostos para melhorar a visualização.
 ~~- Corrigir responsividade para breakpoints de dispositivos móveis~~
 - Ideia: substituir cores de elementos geográficos das Tiles ou criar Layer com elementos visuais baseados em mapas de jogos clássicos
 
