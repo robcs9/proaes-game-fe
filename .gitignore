@@ -5,6 +5,12 @@
 .env.production.local
 .env.local
 
+# private/secrets
+data.geojson
+
+# data
+data/
+
 # Fresh build directory
 _fresh/
 # npm dependencies
