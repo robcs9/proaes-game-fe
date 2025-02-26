@@ -1,13 +1,15 @@
 import { FreshContext } from "$fresh/server.ts";
-
+import { updateLocalGeojson } from "../../lib/utils.ts";
 // import or fetch geojson here
 
-const data = [
-  'geojson data 0',
-  'geojson data 1',
-];
-
 export const handler = (_req: Request, _ctx: FreshContext): Response => {
-  const body = data[0];
-  return new Response(body);
+  const data = localStorage.getItem('geojson');
+  // localStorage.clear()
+  if(data === null) {
+    
+    const res = {error: "Failed to retrieve geojson from localStorage",};
+    return Response.json(res);
+  }
+  const body = JSON.parse(data);
+  return Response.json(body);
 };

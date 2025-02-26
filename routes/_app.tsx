@@ -1,6 +1,17 @@
 import { type PageProps } from "$fresh/server.ts";
+// import { cron } from "https://deno.land/x/deno_cron/cron.ts";
+import { updateLocalGeojson } from "../lib/utils.ts";
+
+Deno.cron("geojson fetch and update cron", "* * * * *", () => {
+  // updateLocalGeojson();
+})
 
 export default function App({ Component }: PageProps) {
+  
+  if(localStorage.getItem('geojson') === null) {
+    updateLocalGeojson();
+  }
+  
   return (
     <html lang="pt-br">
       <head>

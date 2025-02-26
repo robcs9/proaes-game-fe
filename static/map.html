@@ -69,11 +69,13 @@
         try {
           //const json = await fetch("./plot.json");
           // Retrieve data from api when it's available
-          const json = await fetch("/data.geojson");
+          //const json = await fetch("/data.geojson");
+          //const json = localStorage.getItem('geojson')
+          //console.log(localStorage)
           
           // fetch geojson from api
-          // const jsontest = await fetch("/api/geodata");
-          // console.dir(await jsontest.text())
+          const json = await fetch("/api/geodata");
+          //console.dir(await json.text())
 
           if (!json.ok) throw new Error(`HTTP error! status: ${json.status}`);
           const data = await json.json();
