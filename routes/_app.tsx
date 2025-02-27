@@ -1,17 +1,25 @@
 import { type PageProps } from "$fresh/server.ts";
+import { getGeojson } from "@lib/utils.ts";
 // import { cron } from "https://deno.land/x/deno_cron/cron.ts";
-import { updateLocalGeojson } from "../lib/utils.ts";
 
-Deno.cron("geojson fetch and update cron", "* * * * *", () => {
-  // updateLocalGeojson();
+/* import { randomInt } from "node:crypto";
+const geodata = ["foo", "bar", "fizz", "buzz"];
+let data = "empty~" */
+let data = await getGeojson();
+localStorage.setItem('proaes-game-geojson', data);
+
+Deno.cron("geojson fetch and update cron", "0 * * * *", async () => {
+  data = await getGeojson();
+  if(data === null) {
+    console.log('Failed to get geojson data');
+    return;
+  }
+  // data = geodata[randomInt(4)]
+  localStorage.setItem('proaes-game-geojson', data);
+  console.log('proaes-game-geojson localStorage data updated!');
 })
 
 export default function App({ Component }: PageProps) {
-  
-  if(localStorage.getItem('geojson') === null) {
-    updateLocalGeojson();
-  }
-  
   return (
     <html lang="pt-br">
       <head>

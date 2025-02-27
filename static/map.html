@@ -71,10 +71,11 @@
           // Retrieve data from api when it's available
           //const json = await fetch("/data.geojson");
           //const json = localStorage.getItem('geojson')
-          //console.log(localStorage)
+          //console.log(localStorage.getItem('proaes-game-geojson'))
           
           // fetch geojson from api
           const json = await fetch("/api/geodata");
+          //const json = localStorage.getItem('proaes-game-geojson');
           //console.dir(await json.text())
 
           if (!json.ok) throw new Error(`HTTP error! status: ${json.status}`);

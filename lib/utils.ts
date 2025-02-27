@@ -1,7 +1,8 @@
 import { DynamoDBClient, } from "@aws-sdk/client-dynamodb";
 import { DynamoDBDocumentClient, GetCommand, ScanCommand } from "@aws-sdk/lib-dynamodb";
 
-export async function updateLocalGeojson() {
+// export async function updateLocalGeojson() {
+export async function getGeojson() {
   // Fetching geojson data from DynamoDB
   // AWS_ACCESS_KEY_ID
   // AWS_SECRET_ACCESS_KEY
@@ -28,9 +29,9 @@ export async function updateLocalGeojson() {
       console.log('Geojson returned successfully!');
       return res['Items'][0]['json']
     }
-    else
-      console.log("DB scan couldn't retrieve any results");
+    console.log("DB scan couldn't retrieve any results");
   } catch(e) {
     console.log(`Error. Failed to retrieve geojson data from the db.\n${e}`);
   }
+  return null;
 }
