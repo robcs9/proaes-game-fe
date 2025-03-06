@@ -1,7 +1,8 @@
 // import { h } from "preact";
 import { useRef } from "preact/hooks";
 import { useSignal } from "@preact/signals";
-import Map from "../islands/HousingMap.tsx";
+// import Map from "../islands/HousingMap.tsx";
+import Map from "../islands/AltMap.tsx";
 import { Button } from "../components/Button.tsx";
 
 // const btn = useRef()
@@ -61,7 +62,8 @@ export default function Home() {
         </div>
 
         <div class={"w-[90vw] h-[70vh]"}>
-          <Map className="w-[100%] h-[100%]" />
+          {/* <Map className="w-[100%] h-[100%]" /> */}
+          <Map class="open-sans w-[100%] h-[100%]" />
         </div>
       </main>
 

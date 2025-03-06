@@ -149,3 +149,50 @@ li {
   font-weight: 900;
   font-style: italic;
 }
+
+/* Map styling
+* <uniquifier>: Use a unique and descriptive class name
+* <weight>: Use a value from 300 to 800
+*/ 
+  .open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+
+  .vast-shadow-regular {
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }      
+
+  /* body {
+    margin: 0;
+    padding: 0;
+  }
+  html,
+  body,
+  #map {
+    height: 100%;
+  } */
+
+  .maplibregl-popup-content {
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    color: black;
+    /*max-width: 400px;
+    font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+    border-radius: 10px;
+    border: solid rgba(0, 0, 0, 0.5);
+  }
+  
+  .maplibregl-popup-content a {
+    text-decoration: underline;
+  }

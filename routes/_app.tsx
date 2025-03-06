@@ -2,15 +2,15 @@ import { type PageProps } from "$fresh/server.ts";
 // import { cron } from "https://deno.land/x/deno_cron/cron.ts";
 import { updateLocalGeojson } from "../lib/utils.ts";
 
-Deno.cron("geojson fetch and update cron", "* * * * *", () => {
+Deno.cron("geojson fetch and update cron", "* * * * *", async () => {
   // updateLocalGeojson();
+  // if(localStorage.getItem('geojson') === null) {
+  //   const d = await updateLocalGeojson();
+  //   if(d) localStorage.setItem('geojson', d)
+  // }
 })
 
 export default function App({ Component }: PageProps) {
-  
-  if(localStorage.getItem('geojson') === null) {
-    updateLocalGeojson();
-  }
   
   return (
     <html lang="pt-br">
@@ -23,6 +23,16 @@ export default function App({ Component }: PageProps) {
 
         <link rel="stylesheet" href="/styles.css" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/maplibre-gl@5.1.1/dist/maplibre-gl.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vast+Shadow&display=swap" rel="stylesheet" />
       </head>
       {/* <body class={"flex flex-col justify-between"}> */}
       <body class={""}>

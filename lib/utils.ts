@@ -26,7 +26,7 @@ export async function updateLocalGeojson() {
       // console.log(localStorage.getItem('geojson'))
       // console.log('Geojson stored successfully!');
       console.log('Geojson returned successfully!');
-      return res['Items'][0]['json']
+      return res['Items'][0]['json'];
     }
     else
       console.log("DB scan couldn't retrieve any results");
