@@ -2,13 +2,27 @@ import { type PageProps } from "$fresh/server.ts";
 // import { cron } from "https://deno.land/x/deno_cron/cron.ts";
 import { updateLocalGeojson } from "../lib/utils.ts";
 
-Deno.cron("geojson fetch and update cron", "* * * * *", async () => {
+Deno.cron("geojson fetch and update cron", "0 * * * *", async () => {
   // updateLocalGeojson();
   // if(localStorage.getItem('geojson') === null) {
   //   const d = await updateLocalGeojson();
   //   if(d) localStorage.setItem('geojson', d)
   // }
-})
+  
+  const url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
+  try {
+    const res = await fetch(`${url}/scrape`);
+    console.log('Scraper task will be concluded soon.');
+    // console.log('Scraper task finished successfully');
+    // const data = await fetch(`${url}/db/geojson`);
+    // if(data) {
+    //   console.log(data);
+    // }
+  } catch(e) {
+    // console.log(`Error fetching scraper data.\n${e}`);
+    console.log(`Scrape request error.\n${e}`);
+  }
+});
 
 export default function App({ Component }: PageProps) {
   

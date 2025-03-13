@@ -4,19 +4,18 @@ const getData = async () => {
   try {
     //const json = await fetch("./plot.json");
     // Retrieve data from api when it's available
-    const json = await fetch("/data.geojson");
+    const url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
+    // const json = await fetch("/data.geojson");
+    // const json = await fetch(`${url}/db/geojson`);
     
-    //const json = localStorage.getItem('geojson')
-    //console.log(localStorage) 
-    
-    // fetch geojson from api
-    // const json = await fetch("/api/geodata");
+    // fetch geojson from internal api
+    const json = await fetch("/api/geodata");
     
     //console.dir(await json.text())  
     if (!json.ok) throw new Error(`HTTP error! status: ${json.status}`);
     const data = await json.json();
     // check if data.data is valid before returning
-    //console.log(data)
+    // console.log(data)
     return data;
   } catch (err) {
     console.error("Error fetching data:", err);
@@ -63,7 +62,8 @@ export default function Map(props) {
         .setPopup(centerPopup)
         .addTo(map.current);
 
-      let data = await getData();
+      const data = await getData();
+      console.log(data.features)
       let features = [];
       if (data.features) features = data.features;
 
