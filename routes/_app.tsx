@@ -1,7 +1,5 @@
 import { type PageProps } from "$fresh/server.ts";
-import { getGeojson } from "@/lib/utils.ts";
 // import { cron } from "https://deno.land/x/deno_cron/cron.ts";
-import { updateLocalGeojson } from "../lib/utils.ts";
 
 Deno.cron("geojson fetch and update cron", "0 * * * *", async () => {
   // updateLocalGeojson();
