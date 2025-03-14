@@ -4,9 +4,12 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $_middleware from "./routes/_middleware.ts";
+import * as $api_geodata from "./routes/api/geodata.ts";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index_bkp from "./routes/index.bkp.tsx";
 import * as $index from "./routes/index.tsx";
+import * as $AltMap from "./islands/AltMap.tsx";
 import * as $Counter from "./islands/Counter.tsx";
 import * as $HousingMap from "./islands/HousingMap.tsx";
 import type { Manifest } from "$fresh/server.ts";
@@ -15,11 +18,14 @@ const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/_middleware.ts": $_middleware,
+    "./routes/api/geodata.ts": $api_geodata,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.bkp.tsx": $index_bkp,
     "./routes/index.tsx": $index,
   },
   islands: {
+    "./islands/AltMap.tsx": $AltMap,
     "./islands/Counter.tsx": $Counter,
     "./islands/HousingMap.tsx": $HousingMap,
   },
