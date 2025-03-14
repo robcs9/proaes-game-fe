@@ -4,11 +4,12 @@ import { DynamoDBDocumentClient, GetCommand, ScanCommand } from "@aws-sdk/lib-dy
 // export async function updateLocalGeojson() {
 export async function getGeojson() {
   // Fetching geojson data from DynamoDB
-  // AWS_ACCESS_KEY_ID
-  // AWS_SECRET_ACCESS_KEY
-  const AWS_ACCESS_KEY_ID = Deno.env.get('AWS_ACCESS_KEY_ID');
-  const AWS_SECRET_ACCESS_KEY = Deno.env.get('AWS_SECRET_ACCESS_KEY');
-  const AWS_REGION = Deno.env.get('AWS_REGION');
+  const AWS_ACCESS_KEY_ID = 'AWS_ACCESS_KEY_ID';
+  const AWS_SECRET_ACCESS_KEY = 'AWS_SECRET_ACCESS_KEY';
+  const AWS_REGION = 'AWS_REGION';
+  // const AWS_ACCESS_KEY_ID = Deno.env.get('AWS_ACCESS_KEY_ID');
+  // const AWS_SECRET_ACCESS_KEY = Deno.env.get('AWS_SECRET_ACCESS_KEY');
+  // const AWS_REGION = Deno.env.get('AWS_REGION');
   const client = new DynamoDBClient({
     region: AWS_REGION,
     credentials: {
