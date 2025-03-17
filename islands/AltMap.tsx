@@ -1,26 +1,6 @@
+const { Map, Popup, Marker } = await import('https://esm.sh/maplibre-gl@5.1.1');
 import { useEffect, useRef } from 'preact/hooks';
-
-const getData = async () => {
-  try {
-    //const json = await fetch("./plot.json");
-    // Retrieve data from api when it's available
-    const url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
-    // const json = await fetch("/data.geojson");
-    // const json = await fetch(`${url}/db/geojson`);
-    
-    // fetch geojson from internal api
-    const json = await fetch("/api/geodata");
-    
-    //console.dir(await json.text())  
-    if (!json.ok) throw new Error(`HTTP error! status: ${json.status}`);
-    const data = await json.json();
-    // check if data.data is valid before returning
-    // console.log(data)
-    return data;
-  } catch (err) {
-    console.error("Error fetching data:", err);
-  }
-};
+import { getData } from "@/lib/utils.ts";
 
 const titleFont = "poetsen-one-regular";
 const center: [number, number] = [-34.949739906180845, -8.05176740274159];
@@ -31,15 +11,25 @@ const maxBounds: [[number,number],[number,number]] = [
 const style = "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json";
 const zoom = 14;
 
-export default function Map(props) {
+export default function AltMap(props) {
   // console.log('props', props);
   const mapContainer = useRef(null);
   const map = useRef(null);
 
   useEffect(() => {
     (async () => {
-      const { Map, Popup, Marker } = await import('https://esm.sh/maplibre-gl@5.1.1');
+      // Fetch geojson data
+      const data = await getData();
+      console.log('geojson data:\n', data.features);
+      let features = [];
+      if (data.features) features = data.features;
+      const geojson = {
+        type: "FeatureCollection",
+        features: features,
+      };
+
       if (map.current) return;
+
       map.current = new Map({
         container: mapContainer.current,
         style,
@@ -50,7 +40,7 @@ export default function Map(props) {
 
       const el = document.createElement("div");
       el.className = "marker";
-      el.style.backgroundImage = `url(/assets/ufpe-sprite.png)`;
+      el.style.backgroundImage = `url('/assets/ufpe-sprite.png')`;
       el.style.width = `110px`;
       el.style.height = `110px`;
       el.style.backgroundRepeat = "no-repeat";
@@ -61,23 +51,14 @@ export default function Map(props) {
         .setLngLat(center)
         .setPopup(centerPopup)
         .addTo(map.current);
-
-      const data = await getData();
-      console.log(data.features)
-      let features = [];
-      if (data.features) features = data.features;
-
-      const geojson = {
-        type: "FeatureCollection",
-        features: features,
-      };
       const mapIcons = {
         universityIcon: "university-sprite.png",
         housingIcon: "house-sprite.png",
       };
 
       map.current.on("load", async () => {
-        let icon = await map.current.loadImage(`/assets/${mapIcons.housingIcon}`);
+        // let icon = await map.current.loadImage(`/assets/${mapIcons.housingIcon}`);
+        let icon = await map.current.loadImage(`/assets/house-sprite.png`);
         map.current.addImage("housing-marker", icon.data);
         map.current.addSource("points", {
           type: "geojson",
@@ -129,6 +110,7 @@ export default function Map(props) {
           },
         });
       });
+      
       map.current.on("click", "symbols", (e) => {
         const coordinates = e.features[0].geometry.coordinates.slice();
         const title = e.features[0].properties.title;
@@ -137,29 +119,29 @@ export default function Map(props) {
         const url = e.features[0].properties.url;
         const propertyType = e.features[0].properties.property_type;
         const modifiedAt = e.features[0].properties.modifiedAt;
-        const active = e.features[0].properties.active;
-      
-      //console.log(active)
-      
-      // urlText = url.slice(url.indexOf("/") + 2, url.indexOf(".br") + 3);
-      // status = active
-      //   ? `<span style="color: green">ATIVO</span>`
-      //   : `<span style="color: red">INATIVO</span>`;
-      const description = `
-        <strong class="${titleFont}" style="font-size: 1.25em;">${title.toUpperCase()}</strong>
-        <p>${price}</p>
-        <p>${address.toUpperCase()}</p>
-        <p><strong>Tipo de Moradia:</strong> ${propertyType.toUpperCase()}</p>
-        <p><strong>Atualizado:</strong> ${modifiedAt}</p>
-        <p><a href="${url}"target="_blank" title="Acessar link em nova aba">${"VER ANÚNCIO"}</a></p>
-      `;
-      
-      // Ensure that if the map is zoomed out such that multiple
-      // copies of the feature are visible, the popup appears
-      // over the copy being pointed to.
-      while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-      }
+        // const active = e.features[0].properties.active;
+        
+        //console.log(active)
+        
+        // urlText = url.slice(url.indexOf("/") + 2, url.indexOf(".br") + 3);
+        // status = active
+        //   ? `<span style="color: green">ATIVO</span>`
+        //   : `<span style="color: red">INATIVO</span>`;
+        const description = `
+          <strong class="${titleFont}" style="font-size: 1.25em;">${title.toUpperCase()}</strong>
+          <p>${price}</p>
+          <p>${address.toUpperCase()}</p>
+          <p><strong>Tipo de Moradia:</strong> ${propertyType.toUpperCase()}</p>
+          <p><strong>Atualizado:</strong> ${modifiedAt}</p>
+          <p><a href="${url}"target="_blank" title="Acessar link em nova aba">${"VER ANÚNCIO"}</a></p>
+        `;
+        
+        // Ensure that if the map is zoomed out such that multiple
+        // copies of the feature are visible, the popup appears
+        // over the copy being pointed to.
+        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+        }
         //if(active) proceed
         new Popup()
           .setLngLat(coordinates)

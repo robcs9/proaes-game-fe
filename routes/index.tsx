@@ -2,7 +2,7 @@
 // import { useRef } from "preact/hooks";
 // import { useSignal } from "@preact/signals";
 // import Map from "../islands/HousingMap.tsx";
-import Map from "../islands/AltMap.tsx";
+import AltMap from "../islands/AltMap.tsx";
 
 // const btn = useRef()
 // const handleClick = () => {
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
 
         <div class={"w-[90vw] h-[70vh]"}>
-          <Map class="open-sans w-[100%] h-[100%]" />
+          <AltMap class="open-sans w-[100%] h-[100%]" />
         </div>
       </main>
 
