@@ -1,10 +1,8 @@
 import { FreshContext } from "$fresh/server.ts";
-import { updateLocalGeojson } from "../../lib/utils.ts";
+import { getGeojson } from "../../lib/utils.ts";
 // import or fetch geojson here
 
 export const handler = async (_req: Request, _ctx: FreshContext): Promise<Response> => {
-  // const data = localStorage.getItem('geojson');
-  // localStorage.clear()
   const url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
   const json = await fetch(`${url}/db/geojson`);
   if (!json.ok) throw new Error(`HTTP error! status: ${json.status}`);
