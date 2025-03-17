@@ -50,7 +50,6 @@ export default function App({ Component }: PageProps) {
       {/* <body class={"flex flex-col justify-between"}> */}
       <body class={""}>
         <Component />
-        {/* <p>foo</p> */}
       </body>
     </html>
   );
