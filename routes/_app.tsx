@@ -1,6 +1,6 @@
 import { type PageProps } from "$fresh/server.ts";
 
-Deno.cron("geojson fetch and update cron", "0 * * * *", async () => {
+Deno.cron("geojson fetch and update cron task", "0 * * * *", async () => {
   
   const url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
   try {
@@ -9,6 +9,13 @@ Deno.cron("geojson fetch and update cron", "0 * * * *", async () => {
   } catch(e) {
     console.log(`Scrape request error.\n${e}`);
   }
+});
+
+Deno.cron("Scraper API healthcheck ", "* * * * *", async () => {
+  // console.log('Performing scraper healthcheck now');
+  const res = await fetch('https://proaes-game-be-scraper.onrender.com/api/v1');
+  if(res.status === 200) console.log('Scraper is healthy');
+  else console.log('Scraper is unhealthy');
 });
 
 export default function App({ Component }: PageProps) {
