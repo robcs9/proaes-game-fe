@@ -41,7 +41,7 @@ export default function Home() {
         </h2>
         </div>
 
-        <div class={"w-[90vw] h-[70vh]"}>
+        <div class={"w-[90vw] h-[70vh] flex flex-col justify-center items-center"}>
           <AltMap class="open-sans w-[100%] h-[100%]" />
         </div>
       </main>

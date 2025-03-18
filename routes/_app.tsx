@@ -1,19 +1,18 @@
 import { type PageProps } from "$fresh/server.ts";
+const scraper_url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
 
-Deno.cron("geojson fetch and update cron task", "0 * * * *", async () => {
-  
-  const url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
+Deno.cron("geojson fetch and update cron task", "0 * * * *", async () => { 
   try {
-    const res = await fetch(`${url}/scrape`);
+    const res = await fetch(`${scraper_url}/scrape`);
     console.log('Scraper task will be concluded soon.');
   } catch(e) {
     console.log(`Scrape request error.\n${e}`);
   }
 });
 
-Deno.cron("Scraper API healthcheck ", "* * * * *", async () => {
+Deno.cron("Scraper API healthcheck ", "*/10 * * * *", async () => {
   // console.log('Performing scraper healthcheck now');
-  const res = await fetch('https://proaes-game-be-scraper.onrender.com/api/v1');
+  const res = await fetch(scraper_url);
   if(res.status === 200) console.log('Scraper is healthy');
   else console.log('Scraper is unhealthy');
 });

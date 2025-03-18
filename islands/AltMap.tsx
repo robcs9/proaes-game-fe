@@ -1,7 +1,8 @@
 const { Map, Popup, Marker } = await import('https://esm.sh/maplibre-gl@5.1.1');
-import { useEffect, useRef } from 'preact/hooks';
+import { useState, useEffect, useRef } from 'preact/hooks';
 import { getData } from "@/lib/utils.ts";
 
+// let isLoading = true;
 const titleFont = "poetsen-one-regular";
 const center: [number, number] = [-34.949739906180845, -8.05176740274159];
 const maxBounds: [[number,number],[number,number]] = [
@@ -12,15 +13,15 @@ const style = "https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json";
 const zoom = 14;
 
 export default function AltMap(props) {
-  // console.log('props', props);
   const mapContainer = useRef(null);
   const map = useRef(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     (async () => {
       // Fetch geojson data
       const data = await getData();
-      console.log('geojson data:\n', data.features);
+      // console.log('geojson data:\n', data.features);
       let features = [];
       if (data.features) features = data.features;
       const geojson = {
@@ -166,17 +167,29 @@ export default function AltMap(props) {
       map.current.on("mouseleave", "symbols", () => {
         map.current.getCanvas().style.cursor = "";
       });
+
+      map.current.on("styledata", (e) => {
+        setLoading(false);
+        // if(e.isSourceLoaded) {
+        //   console.log('map data is loaded!', e);
+        // } else console.log('loading map');
+      });
+
       return () => map.current?.remove();
     })();
   }, []);
+
+  // if(isLoading) return (<img src="/assets/my-loader.svg" alt="" />);
+
   return (
     <>
+      {loading && <img src="/assets/my-loader.svg" alt="" />}
       <div
         /* id="map"  */
-        ref={mapContainer} 
+        ref={mapContainer}
         class={props.class}
         /*class="open-sans" style={{ width: '300px', height: '300px' }} */
-      >
+        >
       </div>
     </>
   );
