@@ -1,7 +1,7 @@
 import { type PageProps } from "$fresh/server.ts";
 const scraper_url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
 
-Deno.cron("geojson fetch and update cron task", "0 * * * *", async () => { 
+Deno.cron("geojson fetch and update cron task", "5 * * * *", async () => { 
   try {
     const res = await fetch(`${scraper_url}/scrape`);
     console.log('Scraper task will be concluded soon.');
@@ -13,8 +13,8 @@ Deno.cron("geojson fetch and update cron task", "0 * * * *", async () => {
 Deno.cron("Scraper API healthcheck ", "*/10 * * * *", async () => {
   // console.log('Performing scraper healthcheck now');
   const res = await fetch(scraper_url);
-  if(res.status === 200) console.log('Scraper is healthy');
-  else console.log('Scraper is unhealthy');
+  if(res.status === 200) console.log('Scraper API is healthy');
+  else console.log('Scraper API is unhealthy');
 });
 
 export default function App({ Component }: PageProps) {
@@ -27,9 +27,6 @@ export default function App({ Component }: PageProps) {
         <title>GAME - Guia de Acomodações para Moradia Estudantil</title>
         <link rel="stylesheet" href="/styles.css" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="stylesheet"
           href="https://unpkg.com/maplibre-gl@5.1.1/dist/maplibre-gl.css"
