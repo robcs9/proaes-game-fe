@@ -1,9 +1,9 @@
 import { type PageProps } from "$fresh/server.ts";
 const scraper_url = 'https://proaes-game-be-scraper.onrender.com/api/v1';
 
-Deno.cron("geojson fetch and update cron task", "5 */1 * * *", async () => { 
+Deno.cron("geojson fetch and update cron task", "5 */1 * * *", () => { 
   try {
-    const res = await fetch(`${scraper_url}/scrape`);
+    const res = fetch(`${scraper_url}/scrape`);
     console.log('Scraper task will be concluded soon.');
   } catch(e) {
     console.log(`Scrape request error.\n${e}`);
