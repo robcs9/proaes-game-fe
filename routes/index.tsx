@@ -2,7 +2,7 @@
 // import { useRef } from "preact/hooks";
 // import { useSignal } from "@preact/signals";
 // import Map from "../islands/HousingMap.tsx";
-import AltMap from "../islands/AltMap.tsx";
+import AltMap from "@/islands/AltMap.tsx";
 
 // const btn = useRef()
 // const handleClick = () => {
