@@ -20,7 +20,8 @@ export default function AltMap(props) {
   useEffect(() => {
     (async () => {
       // Fetch geojson data
-      const data = await getData();
+      const dataFetch = await getData();
+      const data = JSON.parse(localStorage.getItem('geojson'));
       // console.log('geojson data:\n', data.features);
       let features = [];
       if (data.features) features = data.features;

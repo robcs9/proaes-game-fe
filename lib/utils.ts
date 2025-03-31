@@ -53,6 +53,7 @@ export const getData = async () => {
     const data = await json.json();
     // check if data.data is valid before returning
     // console.log(data)
+    localStorage.setItem('geojson', JSON.stringify(data));
     return data;
   } catch (err) {
     console.error("Error fetching data:", err);
