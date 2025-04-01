@@ -17,29 +17,33 @@ export default function AltMap(props) {
   const map = useRef(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    (async () => {
-      // Fetch geojson data
-      const dataFetch = await getData();
-      const data = JSON.parse(localStorage.getItem('geojson'));
-      // console.log('geojson data:\n', data.features);
-      let features = [];
-      if (data.features) features = data.features;
-      const geojson = {
-        type: "FeatureCollection",
-        features: features,
-      };
+  useEffect(() => {(async () => {
+    // Fetch geojson data
+    const dataFetch = await getData();
+    const data = JSON.parse(localStorage.getItem('geojson'));
+    // console.log('geojson data:\n', data.features);
+    let features = [];
+    if (data.features) features = data.features;
+    const geojson = {
+      type: "FeatureCollection",
+      features: features,
+    };
 
-      if (map.current) return;
+    if (map.current) return;
 
-      map.current = new Map({
-        container: mapContainer.current,
-        style,
-        center,
-        zoom,
-        maxBounds,
-      });
+    map.current = new Map({
+      container: mapContainer.current,
+      style,
+      center,
+      zoom,
+      maxBounds,
+    });
 
+    // map.current.on("style.load", () => console.log('style is loaded'));
+    map.current.on("load", async () => {
+      // console.log('map is loaded');
+      
+      // Initialize center marker
       const el = document.createElement("div");
       el.className = "marker";
       el.style.backgroundImage = `url('/assets/ufpe-sprite.png')`;
@@ -53,132 +57,134 @@ export default function AltMap(props) {
         .setLngLat(center)
         .setPopup(centerPopup)
         .addTo(map.current);
-      const mapIcons = {
-        universityIcon: "university-sprite.png",
-        housingIcon: "house-sprite.png",
-      };
+      
+      // loadImage only supports the file formats .png, .jpg, .webp
+      let icon = await map.current.loadImage(
+        '/assets/housesprite.png',
+        (err, image) => {
+          if(err) console.log('maplibre failed to load housesprite.png.\n', err);
+        });
+      map.current.addImage("housing-marker", icon.data);
+      map.current.addSource("houses", {
+        type: "geojson",
+        data: geojson,
+        //cluster: true,
+        //clusterMaxZoom: 14, // Max zoom to cluster points on
+        //clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
+      });
+      map.current.addSource("university", {
+        type: "geojson",
+        data: {
+          type: "Feature",
+          geometry: {
+            type: "Point",
+            coordinates: center,
+          },
+          properties: {
+            title: "UFPE",
+            //"marker-symbol": "monument",
+            // "marker-symbol": "university-marker",
+          },
+        },
+      });
 
-      map.current.on("load", async () => {
-        // let icon = await map.current.loadImage(`/assets/${mapIcons.housingIcon}`);
-        let icon = await map.current.loadImage(`/assets/house-sprite.png`);
-        map.current.addImage("housing-marker", icon.data);
-        map.current.addSource("points", {
-          type: "geojson",
-          data: geojson,
-          //cluster: true,
-          //clusterMaxZoom: 14, // Max zoom to cluster points on
-          //clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
-        });
-        map.current.addSource("places", {
-          type: "geojson",
-          data: {
-            type: "Feature",
-            geometry: {
-              type: "Point",
-              coordinates: center,
-            },
-            properties: {
-              title: "UFPE",
-              //"marker-symbol": "monument",
-              //"marker-symbol": "university-marker",
-            },
-          },
-        });
-        map.current.addLayer({
-          id: "symbols",
-          type: "symbol",
-          source: "points",
-          layout: {
-            //"icon-overlap": "always",
-            //"icon-ignore-placement": true,
-            "icon-image": "housing-marker",
-            "text-field": ["get", "price"],
-            "icon-allow-overlap": true,
-            "text-allow-overlap": true, // false allows cluster-like behavior
-            "text-variable-anchor": ["top"],
-            //"text-radial-offset": 1.8,
-            "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
-            //"text-font": ["Doto Sans Serif",],
-            //"text-justify": "auto",
-            //'text-offset': [1, 0.5], // x and y offset
-            //'text-size': 14,
-            //'text-anchor': 'top', // Anchor position (top, bottom, left, right, center)
-          },
-          paint: {
-            "text-color": "#ffffff",
-            "text-halo-color": "#0000FF",
-            "text-halo-width": 2,
-            "text-halo-blur": 0.5,
-          },
-        });
+      map.current.addLayer({
+        id: "house-symbols",
+        type: "symbol",
+        source: "houses",
+        layout: {
+          //"icon-overlap": "always",
+          //"icon-ignore-placement": true,
+          "icon-image": "housing-marker",
+          "icon-size": 1.0,
+          "text-field": ["get", "price"],
+          "icon-allow-overlap": true,
+          "text-allow-overlap": true, // false allows cluster-like behavior
+          "text-variable-anchor": ["top"],
+          //"text-radial-offset": 1.8,
+          "text-font": ["Open Sans Semibold", "Arial Unicode MS Bold"],
+          //"text-font": ["Doto Sans Serif",],
+          //"text-justify": "auto",
+          //'text-offset': [1, 0.5], // x and y offset
+          //'text-size': 14,
+          //'text-anchor': 'top', // Anchor position (top, bottom, left, right, center)
+        },
+        paint: {
+          "text-color": "#ffffff",
+          "text-halo-color": "#0000FF",
+          "text-halo-width": 2,
+          "text-halo-blur": 0.5,
+        },
       });
-      
-      map.current.on("click", "symbols", (e) => {
-        const coordinates = e.features[0].geometry.coordinates.slice();
-        const title = e.features[0].properties.title;
-        const price = e.features[0].properties.price;
-        const address = e.features[0].properties.address;
-        const url = e.features[0].properties.url;
-        const propertyType = e.features[0].properties.property_type;
-        const modifiedAt = e.features[0].properties.modifiedAt;
-        // const active = e.features[0].properties.active;
-        
-        //console.log(active)
-        
-        // urlText = url.slice(url.indexOf("/") + 2, url.indexOf(".br") + 3);
-        // status = active
-        //   ? `<span style="color: green">ATIVO</span>`
-        //   : `<span style="color: red">INATIVO</span>`;
-        const description = `
-          <strong class="${titleFont}" style="font-size: 1.25em;">${title.toUpperCase()}</strong>
-          <p>${price}</p>
-          <p>${address.toUpperCase()}</p>
-          <p><strong>Tipo de Moradia:</strong> ${propertyType.toUpperCase()}</p>
-          <p><strong>Atualizado:</strong> ${modifiedAt}</p>
-          <p><a href="${url}"target="_blank" title="Acessar link em nova aba">${"VER ANÚNCIO"}</a></p>
-        `;
-        
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-          coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-        //if(active) proceed
-        new Popup()
-          .setLngLat(coordinates)
-          .setHTML(description)
-          .addTo(map.current);
-      });
-      
-      // Center the map on the coordinates of any clicked symbol from the 'symbols' layer.
-      map.current.on("click", "symbols", (e) => {
-        map.current.flyTo({
-          center: e.features[0].geometry.coordinates,
-        });
-        // also change color to make it easier to see which marker is selected
-      });
-      
+
       // Change the cursor to a pointer when the it enters a feature in the 'symbols' layer.
-      map.current.on("mouseenter", "symbols", () => {
+      map.current.on("mouseenter", "house-symbols", () => {
         map.current.getCanvas().style.cursor = "pointer";
       });
-      
+
       // Change it back to a pointer when it leaves.
-      map.current.on("mouseleave", "symbols", () => {
+      map.current.on("mouseleave", "house-symbols", () => {
         map.current.getCanvas().style.cursor = "";
       });
 
-      map.current.on("styledata", (e) => {
-        setLoading(false);
-        // if(e.isSourceLoaded) {
-        //   console.log('map data is loaded!', e);
-        // } else console.log('loading map');
-      });
 
-      return () => map.current?.remove();
-    })();
-  }, []);
+      
+      map.current.on("click", "house-symbols", ({
+        lngLat,
+        features: [{
+        geometry: {
+          coordinates,
+        },
+        properties: {
+          title,
+          price,
+          address,
+          url,
+          property_type: propertyType,
+          modifiedAt
+        }
+      }] 
+    }) => {
+
+      // Center the map on the coordinates of any clicked symbol from the 'symbols' layer.
+      map.current.flyTo({
+        center: coordinates,
+      });
+      
+      const description = `
+        <strong class="${titleFont}" style="font-size: 1.25em;">${title.toUpperCase()}</strong>
+        <p>${price}</p>
+        <p>${address.toUpperCase()}</p>
+        <p><strong>Tipo de Moradia:</strong> ${propertyType.toUpperCase()}</p>
+        <p><strong>Atualizado:</strong> ${modifiedAt}</p>
+        <p><a href="${url}"target="_blank" title="Acessar link em nova aba">${"VER ANÚNCIO"}</a></p>
+        `;
+        
+        // Ensure that if the map is zoomed out such that multiple
+      // copies of the feature are visible, the popup appears
+      // over the copy being pointed to.
+      while (Math.abs(lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += lngLat.lng > coordinates[0] ? 360 : -360;
+      }
+      //if(active) proceed
+      new Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map.current);
+      });
+    });
+    
+
+    map.current.on("styledata", (e) => {
+      setLoading(false);
+      // if(e.isSourceLoaded) {
+      //   console.log('map data is loaded!', e);
+      // } else console.log('loading map');
+    });
+
+    return () => map.current?.remove();
+  })();
+}, []);
 
   // if(isLoading) return (<img src="/assets/my-loader.svg" alt="" />);
 
