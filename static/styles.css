@@ -185,12 +185,12 @@ li {
   } */
 
   .maplibregl-popup-content {
-    background-color: rgba(255, 255, 255, 0.75) !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     color: black;
     /*max-width: 400px;
     font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;*/
     border-radius: 10px;
-    border: solid rgba(0, 0, 0, 0.5);
+    border: solid rgba(0, 0, 0, 0.75);
   }
   
   .maplibregl-popup-content a {
